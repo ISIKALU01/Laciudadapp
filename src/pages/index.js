@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Caleb's article examples</title>
+        <title>Laciudad</title>
         <link rel="icon" type="image/ico" href="/img/goals.ico" />
       </Head>
       <Navbar />

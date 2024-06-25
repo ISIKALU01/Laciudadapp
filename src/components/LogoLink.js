@@ -1,11 +1,12 @@
 import Link from 'next/link';
+import Image from 'next/image'
 
 export default function LogoLink() {
   return (
     <div className="mb-4 flex items-center sm:mb-0">
       <Link href="/">
-        <img
-            src="logo.png"
+        <Image
+            src="/logo.png"
             alt="Your Brand Logo"
             width="120"
             height="30"
