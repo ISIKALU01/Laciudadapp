@@ -1,0 +1,37 @@
+{
+  "name": "laciudadapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@heroicons/react": "^1.0.6",
+    "@mui/icons-material": "^5.15.20",
+    "@mui/material": "^5.15.20",
+    "@nextui-org/navbar": "^2.0.32",
+    "@nextui-org/react": "^2.4.1",
+    "@nextui-org/system": "^2.2.1",
+    "@nextui-org/theme": "^2.2.5",
+    "framer-motion": "^11.2.10",
+    "next": "14.2.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "react-responsive": "^10.0.0",
+    "responsive": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
