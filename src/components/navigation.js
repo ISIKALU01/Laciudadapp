@@ -1,11 +1,8 @@
-import Link from 'next/link';
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-import LogoLink from './logolink';
-import DesktopNavLinks from './desktopNavLinks';
-import MobileDrawer from './mobiledrawer';
-import MobileMenuButton from './mobilemenubutton';
+import LogoLink from './Logolink';
+import DesktopNavLinks from './DesktopNavLinks';
+import MobileDrawer from './Mobiledrawer';
+import MobileMenuButton from './Mobilemenubutton';
 
 
 
