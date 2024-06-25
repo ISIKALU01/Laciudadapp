@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import LogoLink from './Logolink';
+import LogoLink from './LogoLink';
 import DesktopNavLinks from './DesktopNavLinks';
-import MobileDrawer from './Mobiledrawer';
-import MobileMenuButton from './Mobilemenubutton';
+import MobileDrawer from './MobileDrawer';
+import MobileMenuButton from './MobileMenuButton';
 
 
 
