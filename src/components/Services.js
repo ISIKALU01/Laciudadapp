@@ -10,7 +10,7 @@ export default function Intro() {
               tracking-wide flex justify-center">LA CIUDAD COMPANY</h1>
               <p className="text-sm sm:text-lg font-light text-tranceblue mb-8 font-roboto tracking-normal flex justify-center 
               text-center">
-              La Ciudad Construction Limited, with registration number RC 1959217, epitomizes excellence, innovation, and 
+              La Ciudad Construction Limited epitomizes excellence, innovation, and 
               integrity in the construction and electrical services sector. With a rich history of delivering exceptional 
               results, we have solidified our position as a trusted partner for clients seeking top-tier craftsmanship, 
               unmatched service, and forward-thinking solutions.
