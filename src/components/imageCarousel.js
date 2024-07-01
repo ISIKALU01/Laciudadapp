@@ -33,7 +33,7 @@ const ImageCarousel = ({ images, interval=5000}) => {
       <div className="absolute top-1/2 right-4 transform -translate-y-1/2 cursor-pointer z-10 md:w-10 md:h-10 w-8 h-8">
         <NavigateNextIcon onClick={handleNext} fontSize="large" />
       </div>
-      <div className="w-full sm:h-[80vh] h-[500px] relative">
+      <div className="lg:hidden w-full sm:h-[80vh] h-[500px] relative">
         <Image
           src={images[currentIndex].src}
           alt={images[currentIndex].alt}
@@ -42,8 +42,18 @@ const ImageCarousel = ({ images, interval=5000}) => {
           loading="lazy"
         />
       </div>
-      <div className="absolute w-full top-1/2 text-white text-center mx-auto p-4 rounded">
-        <p className="text-4xl font-open-sans sm:text-6xl tracking-wide font-thin px-4">{images[currentIndex].text}</p>
+      <div className="hidden lg:flex w-full sm:h-[80vh] h-[500px] relative">
+        <Image
+          src={images[currentIndex].src}
+          alt={images[currentIndex].alt}
+          width={1920}
+          height={1080}
+          objectFit="cover"
+          className="absolute inset-0 w-full h-full"
+        />
+      </div>
+      <div className="hidden absolute w-full top-1/2 text-secondary text-center mx-auto p-4 rounded">
+        <p className="text-4xl font-cursive sm:text-6xl font-bold px-4">{images[currentIndex].text}</p>
       </div>
     </div>
   );
