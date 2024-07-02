@@ -8,35 +8,45 @@ import Footer from "../components/Footer"
 export default function Home() {
   const images = [
     {
-      src: '/homepage (1).jpg',
+      src: '/carouselone (1).jpg',
       alt: 'Image 1',
-      text: 'Delivering Exceptional Results'
+      text: 'RHAPSODYS, ABUJA'
     },
     {
-      src: '/homepage (2).jpg',
+      src: '/carouseltwo (1).jpg',
       alt: 'Image 2',
-      text: 'A Collaborative Partner'
+      text: 'RHAPSODYS, ABUJA'
     },
     {
-      src: '/homepage (4).jpg',
+      src: '/carouselthree.jpg',
       alt: 'Image 3',
-      text: 'Productive and Efficient Solutions'
+      text: 'RHAPSODYS, ABUJA'
     },
     {
-      src: '/homepage (5).jpg',
+      src: '/carouselfour (1).jpg',
       alt: 'Image 4',
-      text: 'Productive and Efficient Solutions'
+      text: 'RHAPSODYS, ABUJA'
     },
     {
-      src: '/homepage (7).jpg',
+      src: '/carouselfive.jpg',
       alt: 'Image 5',
-      text: 'Productive and Efficient Solutions'
+      text: 'LA CIUDAD MALL, IKOTA LAGOS'
     },
     {
-      src: '/homepage (8).jpg',
+      src: '/carouselsix.jpg',
       alt: 'Image 6',
-      text: 'Productive and Efficient Solutions'
+      text: 'LA CIUDAD MALL, IKOTA LAGOS'
     },
+    {
+      src: '/carouselseven.jpg',
+      alt: 'Image 6',
+      text: 'LA CIUDAD MALL, IKOTA LAGOS'
+    },
+    {
+      src: '/carouseleight.jpg',
+      alt: 'Image 6',
+      text: 'LA CIUDAD MALL, IKOTA LAGOS'
+    }
   ];
 
   return (

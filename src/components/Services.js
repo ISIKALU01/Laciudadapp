@@ -22,12 +22,6 @@ export default function Intro() {
               and collaboration, we bring a unique blend of expertise, precision, and commitment to every project we 
               undertake.
               </p>
-              <p className="text-sm sm:text-lg font-light text-tranceblue mb-9 font-roboto tracking-normal flex 
-              justify-center text-center">
-              Our mission extends far beyond erecting structures; we are committed to transforming visions into reality, 
-              crafting spaces that inspire and endure. With meticulous attention to detail and an unwavering dedication to 
-              client satisfaction, we strive to exceed expectations and set new benchmarks in the construction industry.
-              </p>
               <div className="border-t-2 border-tranceblue-400 bg-black/50 h-1 z-10 px-10 mt-20"></div>
             </div>
           </section>
