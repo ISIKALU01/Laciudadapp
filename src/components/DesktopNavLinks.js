@@ -38,11 +38,11 @@ export default function DesktopNavLinks() {
  
     
   return (
-    <ul className="absolute right-0 flex flex-row space-x-6 text-primary font-open-sans px-12">
-      <li className="text-lg hover:text-blue-900 font-cursive font-semibold transition-colors duration-300">
+    <ul className="absolute right-20 flex flex-row space-x-6 font-normal font-open-sans text-primary font-open-sans px-12">
+      <li className="text-lg hover:text-blue-900 transition-colors duration-300">
         <Link href="/">Home</Link>
       </li>
-      <li className={`text-lg group hover:text-blue-900 font-cursive font-semibold transition-colors duration-300 
+      <li className={`text-lg group hover:text-blue-900 transition-colors duration-300 
       ${openDropdownIndex === 0 ? 'open' : ''}`}
       onMouseEnter={() => toggleDropdown(0)}
       onMouseLeave={() => closeDropdown(0)}
@@ -57,7 +57,7 @@ export default function DesktopNavLinks() {
           onMouseEnter={() => cancelCloseDropdown(0)} onMouseLeave={() => closeDropdown(0)}>
                   <ul className="py-1">
                     <li>
-                      <Link href="/products/category1" className="block px-4 py-1 font-open-sans text-sm hover:font-semibold hover:text-primary border-b-2 border-primary">
+                      <Link href="/company/executive" className="block px-4 py-1 font-open-sans text-sm hover:font-semibold hover:text-primary border-b-2 border-primary">
                         EXECUTIVE TEAM
                       </Link>
                     </li>
@@ -85,10 +85,10 @@ export default function DesktopNavLinks() {
                 </div>)}
         
       </li>
-      <li className="text-lg hover:text-blue-900 font-cursive font-semibold transition-colors duration-300">
+      <li className="text-lg hover:text-blue-900 transition-colors duration-300">
         <Link href="/">Portfolio</Link>
       </li>
-      <li className={`text-lg group hover:text-blue-900 font-cursive font-semibold transition-colors duration-300 
+      <li className={`text-lg group hover:text-blue-900 transition-colors duration-300 
       ${openDropdownIndex === 1 ? 'open' : ''}`}
       onMouseEnter={() => toggleDropdown(1)}
       onMouseLeave={() => closeDropdown(1)}
@@ -121,10 +121,10 @@ export default function DesktopNavLinks() {
                 </div>)}
         
       </li>
-      <li className="text-lg hover:text-blue-900 font-cursive font-semibold transition-colors duration-300">
+      <li className="text-lg hover:text-blue-900 transition-colors duration-300">
         <Link href="/">Careers</Link>
       </li>
-      <li className="text-lg hover:text-blue-900 font-cursive font-semibold transition-colors duration-300">
+      <li className="text-lg hover:text-blue-900 transition-colors duration-300">
         <Link href="/">Contact us</Link>
       </li>
     </ul>
