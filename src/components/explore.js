@@ -64,14 +64,14 @@ const ExploreSection = () => {
 
 
   return (
-    <section className="py-20 bg-secondary">
-      <div className="container mx-auto px-4">
+    <section className="py-10 bg-secondary">
+      <div className="container mx-auto sm:px-7">
         <div className="border-t-2 mx-10 border-tranceblue-400 bg-black/50 h-1 z-10 px-20"></div>
-        <h2 className="text-2xl mt-20 pt-10 sm:text-6xl font-thin font-open-sans mb-7 text-tranceblue text-center">Explore with us</h2>
-        <div className="relative md:px-20">
+        <h2 className="text-2xl mt-20 pt-10 sm:text-7xl font-thin font-open-sans mb-7 text-tranceblue text-center">Explore with us</h2>
+        <div className="relative w-screen max-w-full">
           <div className="rounded-lg shadow-lg overflow-hidden">
             <motion.div
-              className="relative"
+              className="relative w-screen max-w-full"
               variants={imageVariants}
               initial={{ scale: 1 }}
               animate={{ scale: 1.1 }}
@@ -87,8 +87,8 @@ const ExploreSection = () => {
             <div className="absolute inset-0 bg-black font-open-sans bg-opacity-40 sm:flex flex-col align-items 
             justify-center p-20 text-white"
                >
-            <div className="w-[200px] sm:w-[500px] md:p-2">
-              <h3 className="text-[10px] font-semibold mb-2">
+            <div className="w-[200px] sm:w-[500px] md:p-2 font-open-sans">
+              <h3 className="text-[10px] sm:text-sm font-semibold mb-2">
                 {exploreImages[currentIndex].title}
               </h3>
               <p className="text-white text-xl sm:text-4xl lg:text-5xl font-semibold">

@@ -7,8 +7,8 @@ const ImageGrid = () => {
 
   return (
     <section className='bg-secondary py-10'>
-      <h1 className='text-4xl mx-auto px-20 mb-10 text-center sm:text-5xl lg:text-6xl xl:text:7xl font-thin 
-      text-tranceblue font-open-sans tracking-wide flex justify-center'>Our Services</h1>
+      <h1 className='text-2xl sm:text-7xl mx-auto px-20 mb-10 text-center sm:text-5xl lg:text-6xl xl:text:7xl font-thin 
+      text-tranceblue font-open-sans flex justify-center'>Our Services</h1>
       <div className='flex align-items justify-center pb-20'>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-0 relative">
           <div className="w-screen max-w-full h-80 md:w-80 md:h-80 m-0 p-0 relative group overflow-hidden cursor-pointer">
