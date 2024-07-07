@@ -3,6 +3,7 @@ import Navbar from "@/components/navigation";
 import ImageCarousel from "@/components/imageCarousel";
 import Intro from "../components/Services"
 import ImageGrid from "../components/Ourservices"
+import ExploreSection from "../components/explore"
 import Footer from "../components/Footer"
 
 export default function Home() {
@@ -59,6 +60,7 @@ export default function Home() {
       <ImageCarousel images={images} />
       <Intro />
       <ImageGrid />
+      <ExploreSection />
       <Footer />
     </>
   );

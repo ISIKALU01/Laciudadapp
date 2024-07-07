@@ -64,7 +64,7 @@ const BackToTop = () => {
           onClick={scrollToTop}
         >
           <svg
-            className="w-10 h-10"
+            className="h-5 w-5 sm:w-10 sm:h-10"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
