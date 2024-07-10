@@ -6,6 +6,7 @@ import ImageGrid from "../components/Ourservices"
 import ExploreSection from "../components/explore"
 import Footer from "../components/Footer"
 
+
 export default function Home() {
   const images = [
     {
