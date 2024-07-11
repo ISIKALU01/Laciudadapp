@@ -1,19 +1,74 @@
 import React from 'react';
 import Image from 'next/image';
-import {useState} from 'react';
 import Link from 'next/link'
-import { Swiper, SwiperSlide} from 'swiper/react'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-import 'swiper/css'
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+// import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+// import 'swiper/css'
+// import 'swiper/css/navigation';
+// import 'swiper/css/pagination';
+// import 'swiper/css/scrollbar';
 import { motion, AnimatePresence, useInView } from 'framer-motion';
-import { useRef } from 'react';
+import { useEffect, useRef } from "react";
+import { register } from "swiper/element/bundle";
+register();
+
 
 
 
 const ExploreSection = () => {  
+  const swiperRef = useRef(null);
+
+  useEffect(() => {
+    const swiperContainer = swiperRef.current;
+    const params = {
+      navigation: true,
+      pagination: true,
+      //add this
+      injectStyles: [
+        `
+          .swiper-button-next,
+          .swiper-button-prev {
+            background-color: rgba(0, 0, 0, 0);
+            background-position: center;
+            background-size: 10px;
+            background-repeat: no-repeat;
+            padding: 5px 8px;
+            border-radius: 100%;
+            color: white;
+          }
+
+          .swiper-button-prev {
+            background-image: url("/box-arrow-in-left.svg");
+            position: absolute;
+            top: 50%;
+            left: 40px;
+          }
+
+          .swiper-button-next {
+            background-image: url("/box-arrow-in-right.svg");
+            position: absolute;
+            top: 50%;
+            right: 50px;
+          }
+          
+          .swiper-button-next::after,
+          .swiper-button-prev::after {
+            content: "";
+          }
+
+          .swiper-pagination-bullet{
+            width: 10px;
+            height: 10px;
+            background-color: blue;
+          }
+      `,
+      ],
+    };
+
+    Object.assign(swiperContainer, params);
+    swiperContainer.initialize();
+  }, []);
+
+
    const exploreImages = [
       {
         id: 1,
@@ -56,17 +111,10 @@ const ExploreSection = () => {
                 animate={{ scale: 1.1 }}
                 transition={{ duration: 10, repeat: Infinity, repeatType: 'reverse' }}
               >
-                <Swiper
-                 modules={[Navigation, Pagination, Scrollbar, A11y]}
-                 spaceBetween={50}
-                 slidesPerView={1}
-                 navigation
-                 pagination={{ clickable: true }}
-                 scrollbar={{ draggable: true }}
-               >
+                <swiper-container ref={swiperRef} init="false">
                 {exploreImages.map((image, index) => (
-                  <SwiperSlide key={index}>
-              
+                  <swiper-slide key={index}>
+                  <motion.div className='image-container relative'>
                   <Image
                     src={image.src}
                     alt={image.alt}
@@ -94,9 +142,10 @@ const ExploreSection = () => {
                     </button>
                    </div>  
                   </div>
-                  </SwiperSlide>
-                ))}     
-                 </Swiper>
+                  </motion.div>
+                  </swiper-slide>
+                ))}
+                 </swiper-container>
               </motion.div>
             </div>
           </div>
