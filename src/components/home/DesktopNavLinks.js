@@ -38,7 +38,7 @@ export default function DesktopNavLinks() {
  
     
   return (
-    <ul className="absolute right-20 flex flex-row space-x-6 font-normal font-open-sans text-primary font-open-sans px-12">
+    <ul className="absolute right-20 flex flex-row space-x-6 font-semibold font-open-sans text-primary px-12">
       <li className="text-lg hover:text-blue-900 transition-colors duration-300">
         <Link href="/">Home</Link>
       </li>
@@ -62,7 +62,7 @@ export default function DesktopNavLinks() {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/products/category2" className="block px-4 py-1 font-open-sans text-sm hover:font-semibold hover:text-primary border-b-2 border-primary">
+                      <Link href="/company/about" className="block px-4 py-1 font-open-sans text-sm hover:font-semibold hover:text-primary border-b-2 border-primary">
                         ABOUT US
                       </Link>
                     </li>

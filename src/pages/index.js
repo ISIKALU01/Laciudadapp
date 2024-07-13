@@ -1,9 +1,8 @@
 import Head from "next/head";
-import Navbar from "@/components/navigation";
-import ImageCarousel from "@/components/imageCarousel";
-import Intro from "../components/Services"
-import ImageGrid from "../components/Ourservices"
-import ExploreSection from "../components/explore"
+import ImageCarousel from "../components/home/imageCarousel";
+import Intro from "../components/home/Services"
+import ImageGrid from "../components/home/Ourservices"
+import ExploreSection from "../components/home/explore"
 import Footer from "../components/Footer"
 
 
@@ -57,7 +56,6 @@ export default function Home() {
         <title>Laciudad</title>
         <link rel="icon" type="image/ico" href="/img/goals.ico" />
       </Head>
-      <Navbar />
       <ImageCarousel images={images} />
       <Intro />
       <ImageGrid />

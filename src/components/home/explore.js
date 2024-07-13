@@ -1,13 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link'
-// import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-// import 'swiper/css'
-// import 'swiper/css/navigation';
-// import 'swiper/css/pagination';
-// import 'swiper/css/scrollbar';
-import { motion, AnimatePresence, useInView } from 'framer-motion';
+import { motion, AnimatePresence, useAnimation} from 'framer-motion';
 import { useEffect, useRef } from "react";
+import { FaArrowRight } from 'react-icons/fa';
 import { register } from "swiper/element/bundle";
 register();
 
@@ -16,6 +12,24 @@ register();
 
 const ExploreSection = () => {  
   const swiperRef = useRef(null);
+
+  const controls = useAnimation();
+
+  const pulseAnimation = () => {
+    controls.start({
+      scale: [1, 1.1, 1],
+      transition: {
+        duration: 1,
+        repeat: Infinity,
+        repeatType: 'loop',
+        ease: 'easeInOut',
+      },
+    });
+  };
+
+  React.useEffect(() => {
+    pulseAnimation();
+  }, [controls]);
 
   useEffect(() => {
     const swiperContainer = swiperRef.current;
@@ -59,6 +73,13 @@ const ExploreSection = () => {
             width: 10px;
             height: 10px;
             background-color: blue;
+          }
+
+          @media (max-width: 767px) {
+            .swiper-button-prev,
+            .swiper-button-next {
+              display: none;
+            }
           }
       `,
       ],
@@ -122,9 +143,15 @@ const ExploreSection = () => {
                     height={480}
                     className="w-full h-[350px] sm:h-[500px] object-cover"
                    />
+
+                  <motion.div className="absolute top-6 right-10 transform -translate-y-1/2 text-white px-4 py-2 rounded-full sm:hidden 
+                  flex items-center" animate={controls}>
+                    <span className="mr-2">Swipe</span>
+                    <FaArrowRight />
+                  </motion.div>
                    
                      
-                  <div className="absolute inset-0 bg-black font-open-sans bg-opacity-40 sm:flex flex-col align-items 
+                  <motion.div className="absolute inset-0 bg-black font-open-sans bg-opacity-40 sm:flex flex-col align-items 
                    justify-center p-20 text-white"
                   >
                    <div className="w-[200px] sm:w-[500px] md:p-2 font-open-sans">
@@ -141,7 +168,7 @@ const ExploreSection = () => {
                      </Link>
                     </button>
                    </div>  
-                  </div>
+                  </motion.div>
                   </motion.div>
                   </swiper-slide>
                 ))}

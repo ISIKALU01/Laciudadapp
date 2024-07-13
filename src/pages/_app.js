@@ -3,8 +3,6 @@ import 'tailwindcss/tailwind.css';
 import BackToTop from '../components/BacktoTop';
 import {useState, useEffect} from 'react';
 import { useRouter } from 'next/router'
-import './imageCarousel.css'
-
 
 export default function App({ Component, pageProps }) {
   const [loading, setLoading] = useState(true)
