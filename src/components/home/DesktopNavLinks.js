@@ -49,9 +49,9 @@ export default function DesktopNavLinks() {
       onFocus={() => toggleDropdown(0)}
       onBlur={() => closeDropdown(0)}
       onClick={() => toggleDropdown(0)}>
-        <Link href="/" className="px-3 py-2 rounded-md text-lg">
+        <span className="px-3 py-2 rounded-md text-lg cursor-pointer">
           Company
-        </Link>
+        </span>
         {openDropdownIndex === 0 &&(
           <div className='mt-5 absolute z-10 w-60 text-secondary font-normal shadow-lg bg-gray-800/50' 
           onMouseEnter={() => cancelCloseDropdown(0)} onMouseLeave={() => closeDropdown(0)}>

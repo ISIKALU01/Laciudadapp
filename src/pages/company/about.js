@@ -1,5 +1,7 @@
 import AboutBackground from '@/components/about/background';
-import AboutIntro from '../../components/about/aboutIntro'
+import AboutIntro from '../../components/about/aboutIntro';
+import AboutStats from '../../components/about/aboutStats';
+import AboutServices from '../../components/about/aboutServices'
 import Footer from '../../components/Footer';
 
 function AboutUs() {
@@ -7,6 +9,8 @@ function AboutUs() {
     <>
     <AboutBackground />
     <AboutIntro />
+    <AboutStats />
+    <AboutServices />
     <Footer />
     </>
   );
