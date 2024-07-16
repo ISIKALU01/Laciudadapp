@@ -46,7 +46,7 @@ export default function AboutServices() {
                 <h3 className="font-bold font-open-sans text-tranceblue text-lg">Remodeling and Renovation</h3>
                 <p className="text-md font-light text-tranceblue mb-5 font-open-sans">
                 Transforming existing spaces into functional and aesthetically pleasing environments is our specialty. 
-                Whether it's a commercial facility in need of a modern upgrade or a residential property seeking a 
+                Whether it&apos;s a commercial facility in need of a modern upgrade or a residential property seeking a 
                 fresh new look, our remodeling and renovation services breathe new life into every space.
                 </p>
               </div>
