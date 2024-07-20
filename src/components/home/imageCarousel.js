@@ -42,7 +42,7 @@ const ImageCarousel = ({ images, interval=5000}) => {
           className="object-cover" 
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="absolute inset-0 bg-primary opacity-30"></div>
         <div className="absolute w-full bottom-0 bg-gray-800/50 text-secondary mx-auto p-4 rounded">
           <p className="text-sm font-cursive font-bold px-4">{images[currentIndex].text}</p>
         </div>
@@ -57,7 +57,7 @@ const ImageCarousel = ({ images, interval=5000}) => {
           objectPosition="top"
           className="block"
         />
-        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="absolute inset-0 bg-primary opacity-30"></div>
         <div className="absolute w-full bottom-0 bg-gray-800/50 text-secondary mx-auto p-4 rounded">
           <p className="text-sm font-cursive font-bold px-4">{images[currentIndex].text}</p>
         </div>

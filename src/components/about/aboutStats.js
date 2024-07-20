@@ -106,17 +106,17 @@ const CountupBoxes = () => {
       className="flex justify-center items-center py-20 bg-secondary font-[pacifico]"
     >
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 w-full max-w-4xl mx-auto mt-10 sm:justify-center">
-      <div className="text-tranceblue px-8 py-6 rounded-lg flex flex-col items-center">
-        <h3 className="text-7xl font-semibold italic mb-3">{isVisible ? count1 : 0}</h3>
-        <p className="text-lg font-open-sans underline">Years in Business</p>
+      <div className="text-gray-600 px-8 py-6 rounded-lg flex flex-col items-center">
+        <h3 className="text-7xl font-black mb-3">{isVisible ? count1 : 0}</h3>
+        <p className="text-2xl font-light font-[zilla]">Years in Business</p>
       </div>
-      <div className="text-tranceblue px-8 py-6 rounded-lg flex flex-col items-center">
-        <h3 className="text-7xl font-semibold italic font-italic mb-3">{isVisible ? count2 : 0}</h3>
-        <p className="text-lg font-open-sans underline">Team Members</p>
+      <div className="text-gray-600 px-8 py-6 rounded-lg flex flex-col items-center">
+        <h3 className="text-7xl font-black mb-3">{isVisible ? count2 : 0}</h3>
+        <p className="text-2xl font-light font-[zilla]">Team Members</p>
       </div>
-      <div className="text-tranceblue px-8 py-6 rounded-lg pb-0 flex flex-col items-center">
-        <h3 className="text-7xl font-semibold italic font-italic mb-3">{isVisible ? count3 : 0}</h3>
-        <p className="text-lg font-open-sans underline">Jobs created</p>
+      <div className="text-gray-600 px-8 py-6 rounded-lg pb-0 flex flex-col items-center">
+        <h3 className="text-7xl font-black mb-3">{isVisible ? count3 : 0}</h3>
+        <p className="text-2xl font-light font-[zilla]">Jobs created</p>
       </div>
       </div>
     </div>

@@ -7,11 +7,11 @@ const ImageGrid = () => {
 
   return (
     <section className='bg-secondary py-10'>
-      <h1 className='text-2xl sm:text-7xl mx-auto px-20 mb-10 text-center sm:text-5xl lg:text-6xl xl:text:7xl font-thin 
+      <h1 className='text-2xl mx-auto px-20 mb-10 text-center sm:text-5xl font-thin 
       text-tranceblue font-open-sans flex justify-center'>Our Services</h1>
       <div className='flex align-items justify-center pb-20'>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-0 relative">
-          <div className="w-screen max-w-full h-80 md:w-80 md:h-80 m-0 p-0 relative group overflow-hidden cursor-pointer">
+          <div className="w-screen max-w-full h-80 sm:w-80 sm:h-80 m-0 p-0 relative group overflow-hidden cursor-pointer">
              <Image
                  src="/serv1.jpg"
                  alt="Image 1"
@@ -28,7 +28,7 @@ const ImageGrid = () => {
               </div>
               <span className='absolute w-full bottom-0 bg-primary text-center text-lg font-open-sans text-white py-6 px-10'>PROJECT MANAGEMENT</span>
           </div>
-          <div className="w-screen max-w-full h-80 md:w-80 md:h-80 m-0 p-0 relative group overflow-hidden cursor-pointer">
+          <div className="w-screen max-w-full h-80 sm:w-80 sm:h-80 m-0 p-0 relative group overflow-hidden cursor-pointer">
              <Image
                  src="/serv2.jpg"
                  alt="Image 2"
@@ -45,7 +45,7 @@ const ImageGrid = () => {
               </div>
               <span className='absolute w-full bottom-0 bg-primary-200 text-center text-lg font-open-sans text-white py-6 px-10'>DEVELOPMENT</span>
           </div>
-          <div className="w-screen max-w-full h-80 md:w-80 md:h-80 m-0 p-0 relative group overflow-hidden cursor-pointer">
+          <div className="w-screen max-w-full h-80 sm:w-80 sm:h-80 m-0 p-0 relative group overflow-hidden cursor-pointer">
               <Image
                  src="/serv3.jpg"
                  alt="Image 3"

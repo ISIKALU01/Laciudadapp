@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import LogoLink from '../home/LogoLink';
 import DesktopNavLinks from '../home/DesktopNavLinks';
-import MobileDrawer from '../home/MobileDrawer';
+// import MobileDrawer from '../home/MobileDrawer';
 import MobileMenuButton from '../home/MobileMenuButton';
+import Mobdrawer from '../home/mobdrawer';
 
 
 
@@ -13,7 +14,6 @@ export default function Navbar() {
         setIsDrawerOpen(!isDrawerOpen);
       };
 
- 
 
       return (
         <>
@@ -26,7 +26,7 @@ export default function Navbar() {
           bg-secondary mb-0 mt-0 z-20">
             <LogoLink />
             <MobileMenuButton onClick={handleDrawerToggle} />
-            <MobileDrawer isOpen={isDrawerOpen} onClose={handleDrawerToggle} />
+            <Mobdrawer isOpen={isDrawerOpen} onClose={handleDrawerToggle} setIsOpen={setIsDrawerOpen}/>
           </div>
         </>
       );

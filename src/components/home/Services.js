@@ -6,7 +6,7 @@ export default function Intro() {
           <>
           <section className="bg-secondary py-20 flex">
             <div className="w-full sm:text-center mx-auto px-10 sm:flex sm:flex-col sm:px-6 lg:px-20 flex flex-col justify-center">
-              <p className="text-2xl mx-auto text-center sm:text-7xl lg:text-6xl xl:text:7xl font-light text-tranceblue mb-10 font-open-sans 
+              <p className="text-2xl mx-auto text-center sm:text-5xl font-light text-tranceblue mb-10 font-open-sans 
                flex justify-center">LA CIUDAD COMPANY</p>
               <p className="text-sm sm:text-lg font-light text-tranceblue mb-8 font-open-sans tracking-normal flex justify-center 
               text-center">
