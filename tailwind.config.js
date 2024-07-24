@@ -1,4 +1,5 @@
 const {nextui} = require('@nextui-org/theme');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -12,7 +13,8 @@ module.exports = {
       colors: {
         'primary':'#2384D8',
         'secondary':'#E5EFF3',
-        'tranceblue':'#303B4D'
+        'tranceblue':'#303B4D',
+        'appgray':'#d5dae2'
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -25,4 +27,5 @@ module.exports = {
     },
   },
   plugins: [nextui()],
+ 
 };

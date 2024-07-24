@@ -17,16 +17,16 @@ export default function Navbar() {
 
       return (
         <>
-          <div className="hidden absolute top-0 left-0 w-full bg-secondary bg-opacity-50 py-0 lg:flex flex-col 
+          <div className="hidden absolute top-0 left-0 w-full bg-appgray bg-opacity-80 py-0 lg:flex flex-col 
           justify-center">
             <LogoLink />
             <DesktopNavLinks />
           </div>
-          <div className="lg:hidden absolute top-0 left-0 w-full bg-opacity-50 flex flex-row my-4 px-15 
-          bg-secondary mb-0 mt-0 z-20">
+          <div className="lg:hidden absolute top-0 left-0 w-full bg-appgray bg-opacity-80 flex flex-row my-4 px-15 
+           mb-0 mt-0 z-20">
             <LogoLink />
             <MobileMenuButton onClick={handleDrawerToggle} />
-            <Mobdrawer isOpen={isDrawerOpen} onClose={handleDrawerToggle} setIsOpen={setIsDrawerOpen}/>
+            <Mobdrawer isOpen={isDrawerOpen} onClose={handleDrawerToggle}/>
           </div>
         </>
       );
