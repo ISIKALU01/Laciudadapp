@@ -23,6 +23,9 @@ module.exports = {
       },
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif'],
+        'buda': ['Buda', 'sans-serif'],
+        'overlock': ['Overlock', 'cursive'],
+        'cinzel': ['Cinzel', 'serif']
       },
     },
   },

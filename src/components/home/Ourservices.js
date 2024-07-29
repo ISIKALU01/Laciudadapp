@@ -9,7 +9,7 @@ const ImageGrid = () => {
   return (
     <section className='bg-secondary py-10'>
       <h1 className='text-2xl mx-auto px-20 mb-10 text-center sm:text-5xl font-thin 
-      text-tranceblue font-open-sans flex justify-center'>Our Services</h1>
+      text-tranceblue font-cinzel flex justify-center'>Our Services</h1>
       <div className='flex align-items justify-center pb-20'>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-0 relative">
           <div className="w-screen max-w-full h-80 sm:w-80 sm:h-80 m-0 p-0 relative group overflow-hidden cursor-pointer">
@@ -44,7 +44,6 @@ const ImageGrid = () => {
                   <p className="text-white py-6 mt-4 font-roboto font-thin px-5 text-sm -translate-y-4 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                     The development arm of Luciudad, is a pioneering urban developer whose purpose is to be a catalyst for urban transformation
                     creating sustainable single and multi-family properties and mixed-used communities that promote community and economic empowerment.
-
                   </p>
               </div>
               <span className='absolute w-full bottom-0 bg-primary-200 text-center text-lg font-open-sans text-white py-6 px-10'>DEVELOPMENT</span>
@@ -59,8 +58,8 @@ const ImageGrid = () => {
               />
               <div className="absolute top-0 left-0 w-full bg-black/50 h-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 -translate-y-4 group-hover:translate-y-0">
                   <p className="text-white py-6 mt-4 font-roboto font-thin px-5 text-sm -translate-y-4 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">Our construction division offers a full range of construction
-                 services, including general contracting, construction management agency, construction management at 
-                 risk, and design-builds.</p>
+                  services, including general contracting, construction management agency, construction management at 
+                  risk, and design-builds.</p>
               </div>
               <span className='absolute w-full bottom-0 bg-primary text-center text-lg font-open-sans text-white py-6 px-10'>PROJECT MANAGEMENT</span>
           </div>

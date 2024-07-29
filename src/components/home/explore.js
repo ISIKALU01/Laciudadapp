@@ -175,7 +175,7 @@ const ExploreSection = () => {
       <section className="py-10 bg-secondary">
         <div className="container mx-auto sm:px-7">
           <div className="border-t-2 mx-10 border-tranceblue-400 bg-black/50 h-1 z-10 px-20"></div>
-          <h2 className="text-2xl mt-20 pt-10 sm:text-5xl font-thin font-open-sans mb-7 text-tranceblue text-center">Explore with us</h2>
+          <h2 className="text-2xl mt-20 pt-10 sm:text-5xl font-thin font-cinzel mb-7 text-tranceblue text-center">Explore with us</h2>
           <div className="relative w-screen max-w-full">
             <div className="rounded-lg shadow-lg overflow-hidden" ref={ref}>
               <motion.div
@@ -202,10 +202,10 @@ const ExploreSection = () => {
                   </motion.div>
                    
                      
-                  <motion.div className="absolute inset-0 bg-primary/20 font-open-sans bg-opacity-40 sm:flex flex-col align-items 
+                  <motion.div className="absolute inset-0 bg-primary/20 font-cinzel bg-opacity-40 sm:flex flex-col align-items 
                    justify-center p-[50px] md:p-[100px] text-white" 
                   >
-                  <motion.div className="w-[200px] sm:w-[500px] md:p-2 font-[zilla]" 
+                  <motion.div className="w-[200px] sm:w-[500px] md:p-2" 
                    initial="hidden"
                    animate={controls2}
                    variants={{
@@ -213,10 +213,10 @@ const ExploreSection = () => {
                      hidden: { opacity: 0, y: 50 },
                    }}
                     >
-                     <h3 className="text-[10px] sm:text-sm font-light mb-2">
+                     <h3 className="text-[10px] font-buda sm:text-sm font-light mb-2">
                      {image.title}
                      </h3>
-                     <p className="text-white text-xl sm:text-4xl lg:text-5xl font-light">
+                     <p className="text-white text-xl font-buda sm:text-4xl lg:text-5xl font-light">
                       {image.description}
                      </p>
                      <button className="mt-4 bg-primary-500 px-4 hover:bg-primary-600 text-center text-white
