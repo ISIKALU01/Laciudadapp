@@ -34,7 +34,7 @@ export default function ConstructionTop({}) {
           <section className={styles.container}>
           <Navbar />
             <div className="w-full mx-auto px-30 mt-[80px] sm:flex sm:flex-col lg:px-30 flex flex-col justify-center">
-              <h1 className="text-1xl mx-auto text-center sm:text-4xl font-light text-tranceblue mb-2 font-open-sans 
+              <h1 className="text-1xl mx-auto text-center sm:text-4xl font-light text-tranceblue mb-2 font-cinzel 
                flex justify-center pb-1 mt-[90px]">CONSTRUCTION</h1>
               <div className='border-b-1 border-gray-500 w-[50px] mx-auto mt-0 text-center mb-5'></div>  
             </div>
@@ -64,15 +64,15 @@ export default function ConstructionTop({}) {
 
            <div className="w-full bg-white-200 mx-auto px-10 sm:px-20 mt-[10px] sm:mt-[40px] sm:flex sm:flex-col lg:px-30 flex 
            flex-col justify-center">
-              <h1 className="text-1xl mx-auto text-center sm:text-[25px] md:text-[30px] font-light text-tranceblue mb-2 font-open-sans 
+              <h1 className="text-1xl mx-auto text-center sm:text-[25px] md:text-[30px] font-light text-tranceblue mb-2 font-cinzel
                flex justify-center pb-1">A TEAM WITH DEEP ROOTS IN CONSTRUCTION</h1> 
-               <p className="mx-auto text-sm sm:text-[18px] font-light text-tranceblue mb-5 font-open-sans">
+               <p className="mx-auto text-sm sm:text-[18px] font-light text-tranceblue mb-5 font-cormorant-garamond">
                The Construction division offers a full range of services, including construction management, 
                general contracting, design-build/finance, preconstruction, and consulting. As a result of our 
                diverse range of services, La ciudad Company brings a wealth of talented, professional staff members to 
                every project.
                </p>
-               <p className="mx-auto text-sm sm:text-[18px] font-light text-tranceblue mb-5 font-open-sans">
+               <p className="mx-auto text-sm sm:text-[18px] font-light text-tranceblue mb-5 font-cormorant-garamond">
                La ciudad diversified client base includes several Fortune 500 companies and mid-sized commercial 
                enterprises in the private sector along with public sector federal, state, county/city authorities.
                </p>

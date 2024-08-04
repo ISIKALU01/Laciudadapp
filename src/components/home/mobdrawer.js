@@ -54,7 +54,7 @@ function MobileDrawer({isOpen, onClose}) {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
         </button>
-        <ul className="mt-[70px] text-secondary font-[zilla] space-y-4">
+        <ul className="mt-[70px] text-secondary font-cormorant-garamond space-y-4">
           <li className="text-xl hover:text-blue-900 hover:font-semibold border-b-2 border-secondary pb-2">
           <Link href="/">Home</Link>
           </li>

@@ -38,7 +38,7 @@ export default function DesktopNavLinks() {
  
     
   return (
-    <ul className="absolute right-20 flex flex-row space-x-6 font-semibold font-open-sans text-primary px-12">
+    <ul className="absolute right-20 flex flex-row space-x-6 font-semibold font-cormorant-garamond text-primary px-12">
       <li className="text-lg hover:text-blue-900 transition-colors duration-300">
         <Link href="/">Home</Link>
       </li>

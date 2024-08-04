@@ -30,6 +30,7 @@
     "react-icons": "^5.2.1",
     "react-intersection-observer": "^9.10.3",
     "react-responsive": "^10.0.0",
+    "react-typed": "^2.0.12",
     "responsive": "^2.0.0",
     "swiper": "^11.1.4",
     "tailwindcss-hero-patterns": "^0.1.2"

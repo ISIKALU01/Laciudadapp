@@ -11,17 +11,17 @@ export default function Home() {
     {
       src: '/landingImage (1).jpg',
       alt: 'Image 1',
-      text: 'RHAPSODYS, ABUJA'
+      text: 'Welcome To La Ciudad Construction Limited',
     },
     {
       src: '/landingImage (2).jpg',
       alt: 'Image 2',
-      text: 'RHAPSODYS, ABUJA'
+      text: 'Our vision is to pioneer new technologies and methodologies to deliver superior results in the construction industry. '
     },
     {
       src: '/landingImage (3).jpg',
       alt: 'Image 3',
-      text: 'RHAPSODYS, ABUJA'
+      text: 'Our mission is to deliver diligent and efficient services that cater to the specific needs of our clients. '
     },
   ];
 

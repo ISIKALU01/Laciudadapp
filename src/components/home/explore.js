@@ -213,13 +213,13 @@ const ExploreSection = () => {
                      hidden: { opacity: 0, y: 50 },
                    }}
                     >
-                     <h3 className="text-[10px] font-buda sm:text-sm font-light mb-2">
+                     <h3 className="text-[10px] font-cinzel sm:text-sm font-light mb-2">
                      {image.title}
                      </h3>
-                     <p className="text-white text-xl font-buda sm:text-4xl lg:text-5xl font-light">
+                     <p className="text-white text-xl font-cormorant-garamond sm:text-4xl lg:text-5xl font-light">
                       {image.description}
                      </p>
-                     <button className="mt-4 bg-primary-500 px-4 hover:bg-primary-600 text-center text-white
+                     <button className="mt-4 font-cormorant-garamond bg-primary-500 px-4 hover:bg-primary-600 text-center text-white
                      font-light py-2 transition-colors duration-300">
                      <Link href={image.button}>
                      {image.button}

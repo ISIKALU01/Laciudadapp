@@ -25,7 +25,8 @@ module.exports = {
         'roboto': ['Roboto', 'sans-serif'],
         'buda': ['Buda', 'sans-serif'],
         'overlock': ['Overlock', 'cursive'],
-        'cinzel': ['Cinzel', 'serif']
+        'cinzel': ['Cinzel', 'serif'],
+        'cormorant-garamond': ['Cormorant Garamond', 'serif']
       },
     },
   },

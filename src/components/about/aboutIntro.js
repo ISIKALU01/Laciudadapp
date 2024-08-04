@@ -7,8 +7,8 @@ export default function AboutIntro() {
           <section className="bg-secondary pt-20 flex">
             <div className="w-full sm:text-center px-10 sm:flex sm:flex-col sm:px-6 lg:px-20 flex flex-col justify-center">
               <h1 className="text-2xl mx-auto text-center sm:text-5xl font-light text-tranceblue 
-              mb-10 font-open-sans flex justify-center">LA CIUDAD COMPANY</h1>
-              <p className="text-sm sm:text-lg font-light text-tranceblue mb-8 font-open-sans tracking-normal flex justify-center 
+              mb-10 font-cinzel flex justify-center">LA CIUDAD COMPANY</h1>
+              <p className="text-sm sm:text-lg font-light text-tranceblue mb-8 font-cormorant-garamond tracking-normal flex justify-center 
               text-center">
               La Ciudad Construction Limited epitomizes excellence, innovation, and 
               integrity in the construction and electrical services sector. With a rich history of delivering exceptional 

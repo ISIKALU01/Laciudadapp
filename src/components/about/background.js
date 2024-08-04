@@ -19,7 +19,7 @@ function AboutBackground() {
           />
           <div className="absolute inset-0 bg-primary/30 opacity-50"></div>
           <div className="absolute inset-0 text-secondary p-4 rounded flex items-center justify-center">
-            <p className="text-5xl sm:text-7xl font-open-sans font-semibold px-4">{aboutImage.text}</p>
+            <p className="text-5xl sm:text-7xl font-cormorant-garamond font-semibold px-4">{aboutImage.text}</p>
           </div>
           <Navbar />
       </div>

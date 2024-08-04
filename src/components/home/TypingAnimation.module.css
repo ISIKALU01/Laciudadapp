@@ -1,0 +1,32 @@
+.typingAnimation {
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    /* border-right: 0.15em solid #fff; */
+    color: white;
+    font-size: 30px;
+    white-space: nowrap;
+    animation: typing 3s steps(30, end),
+      blink-caret 0.9s step-end;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #fff;
+    }
+  }
