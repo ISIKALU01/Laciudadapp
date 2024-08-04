@@ -47,7 +47,7 @@ const ImageCarousel = ({ images, interval=5000}) => {
           loading="lazy"
         />
         <div className="absolute w-full inset-0 bg-primary/30 mx-auto flex flex-col align-items items-center justify-center">
-          <h1 className="w-full text-center text-secondary text-2xl font-cinzel font-bold px-[50px]">
+          <h1 className="w-full text-center text-secondary text-1xl font-cinzel font-bold px-[20px]">
           <ReactTyped strings={[images[currentIndex].text]} typeSpeed={20} />
           </h1>        
         </div>
