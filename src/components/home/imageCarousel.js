@@ -11,7 +11,7 @@ import { ReactTyped } from "react-typed";
 
 
 
-const ImageCarousel = ({ images, interval=5000}) => {
+const ImageCarousel = ({ images, interval=10000}) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
