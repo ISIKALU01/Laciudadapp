@@ -205,7 +205,7 @@ const ExploreSection = () => {
                   <motion.div className="absolute inset-0 bg-primary/20 font-cinzel bg-opacity-40 sm:flex flex-col align-items 
                    justify-center p-[50px] md:p-[100px] text-white" 
                   >
-                  <motion.div className="w-[200px] sm:w-[500px] md:p-2" 
+                  <motion.div className="sm:mx-[100px] lg:mx-[150px] w-[200px] sm:w-[300px] md:w-[400px] lg:w-[600px] text-xl md:p-2" 
                    initial="hidden"
                    animate={controls2}
                    variants={{
@@ -216,7 +216,7 @@ const ExploreSection = () => {
                      <h3 className="text-[10px] font-cinzel sm:text-sm font-light mb-2">
                      {image.title}
                      </h3>
-                     <p className="text-white text-xl font-cormorant-garamond sm:text-4xl lg:text-5xl font-light">
+                     <p className="text-white text-xl sm:text-2xl font-cormorant-garamond lg:text-4xl font-normal">
                       {image.description}
                      </p>
                      <button className="mt-4 font-cormorant-garamond bg-primary-500 px-4 hover:bg-primary-600 text-center text-white

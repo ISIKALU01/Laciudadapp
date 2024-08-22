@@ -10,10 +10,17 @@ export default function AboutIntro() {
               mb-10 font-cinzel flex justify-center">LA CIUDAD COMPANY</h1>
               <p className="text-sm sm:text-lg font-light text-tranceblue mb-8 font-cormorant-garamond tracking-normal flex justify-center 
               text-center">
-              La Ciudad Construction Limited epitomizes excellence, innovation, and 
-              integrity in the construction and electrical services sector. With a rich history of delivering exceptional 
-              results, we have solidified our position as a trusted partner for clients seeking top-tier craftsmanship, 
-              unmatched service, and forward-thinking solutions.
+              By relentlessly pursuing innovation and excellence, we aspire to leave a lasting legacy of exceptional 
+              craftsmanship and unwavering integrity. We aim to set a standard for others to follow, 
+              inspiring the industry with our commitment to pushing boundaries and surpassing expectations.
+              </p>
+              <p className="text-sm sm:text-lg font-light text-tranceblue mb-8 font-cormorant-garamond tracking-normal flex justify-center 
+              text-center">
+                We pay meticulous attention to detail, ensuring maximum satisfaction for both corporate and individual 
+                clients alike. Our dedication to excellence permeates every aspect of our work, from the initial concept 
+                to the final execution. By upholding the highest standards of quality and professionalism, 
+                we aim to exceed expectations and build lasting relationships with our valued clients.
+  
               </p>
               <div className="border-t-3 border-tranceblue-400 bg-black/50 h-1 z-10 px-10 mt-20"></div>
             </div>
