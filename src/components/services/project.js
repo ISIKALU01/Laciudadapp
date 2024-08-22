@@ -185,7 +185,7 @@ export default function ProjectManagement() {
           </section>
 
 
-          <section className='bg-secondary px-[100px]'>
+          <section className='bg-secondary px-[20px] lg:px-[100px]'>
               <div>
                 <h1 className='font-cormorant-garamond text-2xl text-center pt-[50px]'>WHO WE HELP</h1>
                 <p className='font-cormorant-garamond text-xl pt-[50px]'>For over 30 years we have worked with some of the nation&apos;s leading organizations and institutions 

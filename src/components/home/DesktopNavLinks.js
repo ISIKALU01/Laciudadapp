@@ -38,7 +38,7 @@ export default function DesktopNavLinks() {
  
     
   return (
-    <ul className="absolute right-20 flex flex-row space-x-6 font-semibold font-cormorant-garamond text-primary px-12">
+    <ul className="absolute right-20 flex flex-row space-x-6 font-normal font-cinzel text-primary px-12">
       <li className="text-lg hover:text-blue-900 transition-colors duration-300">
         <Link href="/">Home</Link>
       </li>
@@ -103,7 +103,7 @@ export default function DesktopNavLinks() {
           onMouseEnter={() => cancelCloseDropdown(1)} onMouseLeave={() => closeDropdown(1)}>
                   <ul className="py-1">
                     <li>
-                      <Link href="/services/project" className="block px-4 py-1 font-open-sans text-sm hover:font-semibold hover:text-primary border-b-2 border-primary">
+                      <Link href="/services/development" className="block px-4 py-1 font-open-sans text-sm hover:font-semibold hover:text-primary border-b-2 border-primary">
                         DEVELOPMENT
                       </Link>
                     </li>
