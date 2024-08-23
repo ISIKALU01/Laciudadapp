@@ -20,7 +20,6 @@ export default function AboutIntro() {
                 clients alike. Our dedication to excellence permeates every aspect of our work, from the initial concept 
                 to the final execution. By upholding the highest standards of quality and professionalism, 
                 we aim to exceed expectations and build lasting relationships with our valued clients.
-  
               </p>
               <div className="border-t-3 border-tranceblue-400 bg-black/50 h-1 z-10 px-10 mt-20"></div>
             </div>

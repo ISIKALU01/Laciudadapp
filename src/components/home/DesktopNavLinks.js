@@ -86,7 +86,7 @@ export default function DesktopNavLinks() {
         
       </li>
       <li className="text-lg hover:text-blue-900 transition-colors duration-300">
-        <Link href="/">Portfolio</Link>
+        <Link href="/portfolio">Portfolio</Link>
       </li>
       <li className={`text-lg group hover:text-blue-900 transition-colors duration-300 
       ${openDropdownIndex === 1 ? 'open' : ''}`}
