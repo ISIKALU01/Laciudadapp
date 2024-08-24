@@ -1,9 +1,14 @@
 import React from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa';
 
+const handleOpenGoogleForm = () => {
+  // Redirect the user to the Google Form link
+  window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdUjXCbOe_B0xp4OZJz4RZITpeoeWFquq4MFMsgJxx_P24Ppw/viewform?usp=sf_link';
+};
+
 const Footer = () => {
   return (
-    <footer className="bg-gray-700 text-primary font-open-sans py-12 md:py-16 border-t-8 border-primary">
+    <footer className="bg-gray-600 text-primary font-open-sans py-12 md:py-16 border-t-8 border-primary">
       <div className="container mx-auto px-10 m-5">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
           <div>
@@ -13,7 +18,8 @@ const Footer = () => {
                 <FaMapMarkerAlt className="text-gray-400" />
                 <div className="flex flex-col text-secondary">
                   <span className="font-medium text-lg">LOCATION:</span>
-                  <span>123 Main St, Anytown USA</span>
+                  <span>40a, Oyibo Adjarho off Ayinde Akinmade, Admiralty Way, 
+                    Lekki Phase 1,Lagos.</span>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
@@ -27,7 +33,7 @@ const Footer = () => {
                 <FaEnvelope className="text-gray-400" />
                 <div className="flex flex-col text-secondary">
                   <span className="font-medium text-lg">EMAIL:</span>
-                  <span>info@example.com</span>
+                  <span>info@laciudadglobal.com</span>
                 </div>
               </div>
               <div className="flex space-x-4 mt-4">
@@ -46,7 +52,14 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-span-2 flex flex-col items-start">
+          <div className="flex flex-col items-start">
+          <h3 className="text-2xl font-medium mb-4">RESOURCES</h3>
+            <button className='text-secondary p-[5px]
+             text-md' onClick={handleOpenGoogleForm}>
+             Subcontractor Pre-Registration Form
+            </button>
+          </div>      
+          <div className="flex flex-col items-start">
             <h3 className="text-2xl font-medium mb-5">NEWSLETTER SIGN UP</h3>
             <form className="flex flex-col space-y-4 w-full">
             <input
