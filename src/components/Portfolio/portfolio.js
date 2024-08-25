@@ -66,7 +66,7 @@ export default function Portfoli() {
               </div>
               <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-black 
               bg-opacity-0 group-hover:bg-opacity-50 transition duration-300 ease-in-out">
-                <Link href="#" className="block">
+                <Link href="/" className="block">
                  <button className="text-black px-4 py-2 hover:bg-primary-200 font-cormorant-garamond text-secondary 
                  transition duration-300 ease-in-out opacity-0 group-hover:opacity-100">
                   VIEW
@@ -88,7 +88,7 @@ export default function Portfoli() {
               </div>
               <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-black 
               bg-opacity-0 group-hover:bg-opacity-50 transition duration-300 ease-in-out">
-                <Link href="#" className="block">
+                <Link href="/slowLagos" className="block">
                  <button className="text-black px-4 py-2 hover:bg-primary-200 font-cormorant-garamond text-secondary 
                  transition duration-300 ease-in-out opacity-0 group-hover:opacity-100">
                   VIEW

@@ -49,7 +49,6 @@ const ImageCarousel = ({ images, interval=10000}) => {
         />
         <div className="absolute w-full inset-0 bg-primary/30 mx-auto flex flex-col align-items items-center justify-center">
           <h1 className="w-full text-center text-secondary text-1xl font-cinzel font-bold px-[20px]">
-          {/* <ReactTyped strings={[images[currentIndex].text]} typeSpeed={20} /> */}
           <ReactTyped
             strings={[images[currentIndex].text]}
             typeSpeed={20}
@@ -70,7 +69,6 @@ const ImageCarousel = ({ images, interval=10000}) => {
         />
         <div className="absolute w-full inset-0 bg-primary/30 font-cinzel mx-auto flex flex-col align-items items-center justify-center">
           <h1 className="w-full text-center text-secondary text-3xl font-cinzel font-bold px-[100px]">
-          {/* <ReactTyped strings={[images[currentIndex].text]} typeSpeed={20} /> */}
           <ReactTyped
             strings={[images[currentIndex].text]}
             typeSpeed={20}
