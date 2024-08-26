@@ -43,7 +43,7 @@ export default function Development () {
              height={200}
              className="w-full h-full object-cover"
             />
-            <p className='font-cinzel text-center text-black pt-[20px]'>Entertainment</p>
+            <p className='font-cinzel text-center text-black pt-[20px]'></p>
            </div>
       
            <div className="w-full h-50 overflow-hidden flex flex-col">
@@ -54,7 +54,7 @@ export default function Development () {
               height={200}
               className="w-full h-full object-cover"
             />
-            <p className='font-cinzel text-center text-black pt-[20px]'>Retail Market</p>
+            <p className='font-cinzel text-center text-black pt-[20px]'>Residential Development</p>
            </div>
 
            <div className="w-full h-50 overflow-hidden flex flex-col">
@@ -65,7 +65,7 @@ export default function Development () {
               height={200}
               className="w-full h-full object-cover"
              />
-            <p className='font-cinzel text-center text-black pt-[20px]'>Food services</p>
+            <p className='font-cinzel text-center text-black pt-[20px]'>Commercial Development</p>
            </div>
 
            <div className="w-full h-50 overflow-hidden flex flex-col">
@@ -76,7 +76,7 @@ export default function Development () {
               height={200}
               className="w-full h-full object-cover"
              />
-            <p className='font-cinzel text-center text-black pt-[20px]'>Food services</p>
+            <p className='font-cinzel text-center text-black pt-[20px]'>Health Care Facility</p>
            </div>
 
            <div className="w-full h-50 overflow-hidden flex flex-col">
@@ -87,7 +87,7 @@ export default function Development () {
               height={200}
               className="w-full h-full object-cover"
              />
-            <p className='font-cinzel text-center text-black pt-[20px]'>Food services</p>
+            <p className='font-cinzel text-center text-black pt-[20px]'>Storage and Warehousing</p>
            </div>
 
            <div className="w-full h-50 overflow-hidden flex flex-col">
@@ -98,7 +98,7 @@ export default function Development () {
               height={200}
               className="w-full h-full object-cover"
              />
-            <p className='font-cinzel text-center text-black pt-[20px]'>Food services</p>
+            <p className='font-cinzel text-center text-black pt-[20px]'>Environmental and sustainability Projects</p>
            </div>
 
            <div className="w-full h-50 overflow-hidden flex flex-col">
@@ -153,7 +153,7 @@ export default function Development () {
               height={200}
               className="w-full h-full object-cover"
              />
-            <p className='font-cinzel text-center text-black pt-[20px]'>Food services</p>
+            <p className='font-cinzel text-center text-black pt-[20px]'>Interior Design</p>
            </div>
 
            <div className="w-full h-50 overflow-hidden flex flex-col">

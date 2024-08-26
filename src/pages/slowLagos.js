@@ -75,26 +75,37 @@ const images = [
 
 const ImageGallery = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
+  const [isLoading, setIsLoading] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+
 
 
   const handleClick = (index) => {
+    setIsLoading(true);
     setSelectedIndex(index);
+    setShowModal(true);
+  };
+
+  const handleClose = () => {
+    setShowModal(false);
   };
 
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <div className="w-full max-w-5xl">
-        <div className="relative h-96 overflow-hidden rounded-lg">
-          <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center bg-gray-100">
-            <div className="animate-spin rounded-full h-12 w-12 border-4 border-gray-500 border-t-transparent"></div>
-          </div>
+        <div className="relative h-[500px] overflow-hidden rounded-lg">
+        {isLoading && (
+            <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center bg-gray-100">
+              <div className="animate-spin rounded-full h-12 w-12 border-4 border-gray-500 border-t-transparent"></div>
+            </div>
+          )}
           <Image
             src={images[selectedIndex].src}
             alt="Gallery"
             width={2000}
             height={1500}
             className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 ease-in-out"
-            priority
+            onLoadingComplete={() => setIsLoading(false)}
           />
           <div className="absolute top-0 left-0 w-full h-full flex items-center justify-between px-4">
             <button

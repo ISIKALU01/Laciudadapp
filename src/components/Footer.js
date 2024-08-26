@@ -26,7 +26,7 @@ const Footer = () => {
                 <FaPhoneAlt className="text-gray-400" />
                 <div className="flex flex-col text-secondary">
                   <span className="font-medium text-lg">PHONE:</span>
-                  <span>(555) 555-5555</span>
+                  <span>+234 916 222 7000</span>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
@@ -43,10 +43,10 @@ const Footer = () => {
                 <a href="#" className="text-gray-400 hover:text-white">
                   <FaTwitter />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a href="https://www.instagram.com/laciudadbuild?igsh=NDJ4bXd0Mzl0MWhw" className="text-gray-400 hover:text-white">
                   <FaInstagram />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a href="https://www.linkedin.com/company/la-ciudad-construction-limited/" className="text-gray-400 hover:text-white">
                   <FaLinkedinIn />
                 </a>
               </div>
