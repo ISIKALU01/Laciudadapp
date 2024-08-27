@@ -145,7 +145,7 @@ const ExploreSection = () => {
    const exploreImages = [
       {
         id: 1,
-        src: '/homepage (1).jpg',
+        src: '/homepage (3).jpg',
         alt: 'Explore Image 1',
         title: 'WE ARE LA CIUDAD',
         description: 'We are highly skilled in successful construction project execution.',
@@ -154,7 +154,7 @@ const ExploreSection = () => {
       },
       {
         id: 2,
-        src: '/homepage (2).jpg',
+        src: '/pm (2).jpg',
         alt: 'Explore Image 2',
         title: 'WE ARE DEDICATED',
         description: 'Proven track record in construction project delivery.',
@@ -162,7 +162,7 @@ const ExploreSection = () => {
       },
       {
         id: 3,
-        src: '/homepage (3).jpg',
+        src: '/homepage (1).jpg',
         alt: 'Explore Image 3',
         title: 'WE ARE EXPERIENCED',
         description: 'Exceptional construction project management expertise.',
@@ -191,9 +191,9 @@ const ExploreSection = () => {
                   <Image
                     src={image.src}
                     alt={image.alt}
-                    width={1200}
-                    height={480}
-                    className="w-full h-[350px] sm:h-[500px] object-cover"
+                    width={2000}
+                    height={1500}
+                    className="w-full h-[350px] sm:h-[600px] object-cover"
                    />
 
                   <motion.div className="absolute top-6 right-10 transform -translate-y-1/2 text-white px-4 py-2 rounded-full md:hidden 
