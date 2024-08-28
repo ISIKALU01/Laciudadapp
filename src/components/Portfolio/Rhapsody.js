@@ -1,75 +1,77 @@
 import React, {useState} from 'react';
 import Image from 'next/image'
-
 import 'animate.css'
+
+
 
 const images = [
   {
-    src: '/slowLagosImages (6).jpg',
+    src: '/Rhapsody (1).jpg',
     alt: 'Image 1',
   },
   {
-    src: '/slowLagosImages (2).jpg',
+    src: '/Rhapsody (2).jpg',
     alt: 'Image 1',
   },
   {
-    src: '/slow (2).jpg',
+    src: '/Rhapsody (3).jpg',
     alt: 'Image 1',
   },
   {
-    src: '/slowLagosImages (4).jpg',
+    src: '/Rhapsody (4).jpg',
     alt: 'Image 1',
   },
   {
-    src: '/slowLagosImages (5).jpg',
+    src: '/Rhapsody (5).jpg',
     alt: 'Image 1',
   },
   {
-    src: '/slow (1).jpg',
+    src: '/Rhapsody (6).jpg',
     alt: 'Image 1',
   },
   {
-    src: '/slowLagosImages (7).jpg',
+    src: '/Rhapsody (7).jpg',
     alt: 'Image 1',
   },
   {
-    src: '/slowLagosImages (8).jpg',
+    src: '/Rhapsody (8).jpg',
     alt: 'Image 1',
   },
   {
-    src: '/slowLagosImages (9).jpg',
+    src: '/Rhapsody (9).jpg',
     alt: 'Image 1',
   },
   {
-    src: '/slowLagosImages (10).jpg',
+    src: '/Rhapsody (10).jpg',
     alt: 'Image 1',
   },
   {
-    src: '/slowLagosImages (11).jpg',
+    src: '/carouselone (1).jpg',
     alt: 'Image 1',
   },
   {
-    src: '/slowLagosImages (12).jpg',
+    src: '/carouselthree.jpg',
     alt: 'Image 1',
   },
   {
-    src: '/slowLagosImages (15).jpg',
+    src: '/carouseltwo (1).jpg',
     alt: 'Image 1',
   },
   {
-    src: '/slow (3).jpg',
+    src: '/carouselfour (1).jpg',
     alt: 'Image 1',
   },
   {
-    src: '/slow (4).jpg',
+    src: '/Carouselthree (1).jpg',
     alt: 'Image 1',
   },
- 
+  
 ];
 
 
 
-export default function Slowlagos() {
+
+export default function Rhapsody() {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const [showModal, setShowModal] = useState(false)
@@ -97,12 +99,13 @@ export default function Slowlagos() {
         return (
           <>
           <section className='bg-secondary'>
-    
+
+
             <div className='relative group'>
 
               <div className="w-full h-72 sm:h-144 sm:h-72 overflow-hidden flex flex-col">
                 <Image
-                  src="/slowLagosImages (1).jpg"
+                  src="/Rhapsody (2).jpg"
                   alt="Image 1"
                   width={2000}
                   height={1500}
@@ -121,13 +124,13 @@ export default function Slowlagos() {
                   VIEW
                   </button>
                   <p className='text-secondary font-cormorant-garamond text-2xl font-bold 
-                  transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Slow</p>
+                  transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Rhapsody </p>
                   <p className='text-secondary font-cormorant-garamond text-xl 
-                  transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Project year-2022</p>
+                  transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Project year- 2021 </p>
                   <p className='text-secondary font-cormorant-garamond text-xl 
-                  transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Location: Victoria Island, Lagos </p>
+                  transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Location- Wuse 2, Abuja</p>
                   <p className='text-secondary font-cormorant-garamond text-xl 
-                  transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Type- Food Services</p>
+                  transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Type: Entertainment and lifestyle</p>
                 </div>
 
 
@@ -226,7 +229,7 @@ export default function Slowlagos() {
             
            </div>
 
-          
+
           </section>
         </>
         );

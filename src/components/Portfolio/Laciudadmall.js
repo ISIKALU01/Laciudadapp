@@ -102,10 +102,14 @@ export default function Laciudadmall() {
                  >
                   VIEW
                   </button>
-                  <p className='text-secondary font-cormorant-garamond text-2xl font-bold'>Laciudad Mall</p>
-                  <p className='text-secondary font-cormorant-garamond text-xl'>Project year-2024</p>
-                  <p className='text-secondary font-cormorant-garamond text-xl'>Location: Victoria Island, Lagos </p>
-                  <p className='text-secondary font-cormorant-garamond text-xl'>Type- Food Services</p>
+                  <p className='text-secondary font-cormorant-garamond text-2xl font-bold 
+                  transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Laciudad Mall</p>
+                  <p className='text-secondary font-cormorant-garamond text-xl 
+                  transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>ongoing</p>
+                  <p className='text-secondary font-cormorant-garamond text-xl 
+                  transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Location: Victoria Island, Lagos </p>
+                  <p className='text-secondary font-cormorant-garamond text-xl 
+                  transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Type- Commercial Property</p>
                 </div>
 
 

@@ -188,7 +188,7 @@ export default function ProjectManagement() {
           <section className='bg-secondary px-[20px] lg:px-[100px]'>
               <div>
                 <h1 className='font-cormorant-garamond text-2xl text-center pt-[50px]'>WHO WE HELP</h1>
-                <p className='font-cormorant-garamond text-xl pt-[50px]'>For over 30 years we have worked with some of the nation&apos;s leading organizations and institutions 
+                <p className='font-cormorant-garamond text-xl pt-[50px]'>For over a decade we have worked with some of the nation&apos;s leading organizations and institutions 
                   and partnered with some of the best of our fellow AEC firms. We routinely work for clients such as:</p>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1 pb-[100px]">
                   {listItems2.map((item, index) => (

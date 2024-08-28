@@ -1,8 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Image from 'next/image'
 import Navbar from '@/components/home/navigation';
 import Laciudadmall from './Laciudadmall'
 import Slowlagos from './slowLagos'
+import Rhapsody from './Rhapsody'
 import 'animate.css'
 
 const images = [
@@ -104,10 +105,11 @@ export default function Portfolio() {
             </h1>
           </div>
 
-          <div className="px-[10px] lg:px-[100px] py-8 grid grid-cols-1 gap-8 sm:grid-cols-2 mb-[50px] 
+          <div className="px-[10px] lg:px-[150px] py-8 grid grid-cols-1 gap-8 sm:grid-cols-2 mb-[50px] 
           justify-center items-center">
             <Laciudadmall />
             <Slowlagos />
+            <Rhapsody />
 
            </div>
 
