@@ -1,10 +1,13 @@
 import React, {useState} from 'react';
 import Image from 'next/image'
 import Navbar from '@/components/home/navigation';
-import { FaBriefcase, FaPlus, FaMoneyBill, FaRibbon, FaShieldAlt, FaWheelchair, FaVest, FaRegCalendarAlt, FaRegClock, FaSuperpowers} from 'react-icons/fa';
+import { FaBriefcase, FaPlus, FaFileAlt, FaTools, FaMoneyBill, FaRibbon, FaShieldAlt, FaWheelchair, FaVest, FaRegCalendarAlt, FaRegClock, FaSuperpowers} from 'react-icons/fa';
 import 'animate.css'
 
-
+const handleOpenGoogleForm = () => {
+  // Redirect the user to the Google Form link
+  window.location.href = 'https://forms.gle/4jSyYZQZQLJp1TjGA';
+};
 
 export default function Careers() {
   
@@ -60,6 +63,23 @@ export default function Careers() {
               As a result, we strive to hire candidates who demonstrate our values in their day-to-day work activities.</p>
             </div>
            </div>
+
+           <section className="bg-gray-100">
+            <h1 className='font-cormorant-garamond font-light text-tranceblue text-2xl pt-[130px] text-center 
+            lg:px-[250px]'>The most important factors distinguishing La ciudad as the nation&apos;s leading 
+            minority-owned construction firm:</h1>
+            <div className="flex justify-center items-center w-full h-auto px-[100px]">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-[30px] sm:gap-[100px] sm:mt-[100px] mb-[50px]">
+               <div className='flex flex-col justify-center items-center'>
+                <div className="flex flex-col justify-center items-center w-[200px] h-[200px] bg-primary shadow-md 
+                hover:scale-110 transition-transform duration-300 cursor-pointer">
+                  <p className='text-lg mt-[0px] mb-[30px] text-center w-[200px] font-cormorant-garamond font-semibold text-white'>Construction Jobs</p>
+                  <FaTools  className="text-[55px] text-white" />
+                </div>
+               </div>
+              </div>
+            </div>
+           </section>
 
            <div className='bg-secondary flex flex-col justify-center items-center'>
                 <h1 className='font-cormorant-garamond text-2xl text-center pt-[50px]'>BENEFITS</h1>
@@ -147,6 +167,19 @@ export default function Careers() {
 
                 </ul>
                </div>
+
+            
+               <section className='bg-gray-400'>
+                 <div className='flex sm:flex-row items-center flex-col sm:justify-center mx-auto bg-appgray/80 p-[20px]'>
+                   <p className="text-[30px] text-center sm:text-[35px] font-light text-tranceblue mb-2 font-cormorant-garamond
+                  ">Interested in working with us?</p>
+                   <button className='sm:ml-[10px] flex flex-row text-tranceblue font-cinzel bg-primary text-white p-[5px] w-[250px]
+                    text-[15px]' onClick={handleOpenGoogleForm}>
+                    <FaFileAlt className="text-[55px] text-white ml-[10px]"/>
+                    Career Opportunities Form
+                   </button>
+                  </div>
+              </section>
 
           </section>
         </>
