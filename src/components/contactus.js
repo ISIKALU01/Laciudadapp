@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa';
+import emailjs from 'emailjs-com';
 
 
 const ContactUs = () => {
