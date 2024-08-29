@@ -125,7 +125,7 @@ export default function DesktopNavLinks() {
         <Link href="/careers">Careers</Link>
       </li>
       <li className="text-lg hover:text-blue-900 transition-colors duration-300">
-        <Link href="/">Contact us</Link>
+        <Link href="/contactus">Contact us</Link>
       </li>
     </ul>
   );

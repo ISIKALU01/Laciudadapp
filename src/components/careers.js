@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Image from 'next/image'
 import Navbar from '@/components/home/navigation';
-import { FaBriefcase, FaPlus, FaFileAlt, FaTools, FaMoneyBill, FaRibbon, FaShieldAlt, FaWheelchair, FaVest, FaRegCalendarAlt, FaRegClock, FaSuperpowers} from 'react-icons/fa';
+import { FaBriefcase, FaPlus, FaFileAlt, FaTools, FaHandHolding, FaDesktop, FaLaptop, FaMoneyBill, FaHotel, FaRibbon, FaShieldAlt, FaWheelchair, FaVest, FaRegCalendarAlt, FaRegClock, FaSuperpowers} from 'react-icons/fa';
 import 'animate.css'
 
 const handleOpenGoogleForm = () => {
@@ -73,7 +73,7 @@ export default function Careers() {
                <div className='flex flex-col justify-center items-center'>
                 <div className="flex flex-col justify-center items-center w-[300px] sm:w-[400px]
                 lg:w-48 h-48 bg-primary shadow-md">
-                  <p className='text-lg mb-[30px] text-center w-[100px] font-cormorant-garamond font-semibold text-white'>Construction Jobs</p>
+                  <p className='text-lg mb-[30px] px-[15px] text-center font-cormorant-garamond font-semibold text-white'>Construction Jobs</p>
                   <FaTools className="text-[55px] text-white" />
                 </div>
                </div>
@@ -81,37 +81,36 @@ export default function Careers() {
                <div className='flex flex-col justify-center items-center'>
                 <div className="flex flex-col justify-center items-center w-[300px] sm:w-[400px]
                 lg:w-48 h-48 bg-primary shadow-md">
-                  <p className='text-lg mb-[30px] text-center w-[100px] font-cormorant-garamond font-semibold text-white'>Construction Jobs</p>
-                  <FaTools className="text-[55px] text-white" />
+                  <p className='text-lg mb-[30px] px-[15px] text-center font-cormorant-garamond font-semibold text-white'>Corporate Jobs</p>
+                  <FaLaptop className="text-[55px] text-white" />
                 </div>
                </div>
 
                <div className='flex flex-col justify-center items-center'>
                 <div className="flex flex-col justify-center items-center w-[300px] sm:w-[400px]
                 lg:w-48 h-48 bg-primary shadow-md">
-                  <p className='text-lg mb-[30px] text-center w-[100px] font-cormorant-garamond font-semibold text-white'>Construction Jobs</p>
-                  <FaTools className="text-[55px] text-white" />
+                  <p className='text-lg px-[15px] text-center font-cormorant-garamond font-semibold 
+                  text-white'>Program Management Jobs</p>
+                  <FaHandHolding className="text-[55px] text-white"/>
                 </div>
                </div>
 
                <div className='flex flex-col justify-center items-center'>
                 <div className="flex flex-col justify-center items-center w-[300px] sm:w-[400px]
                 lg:w-48 h-48 bg-primary shadow-md">
-                  <p className='text-lg mb-[30px] text-center w-[100px] font-cormorant-garamond font-semibold text-white'>Construction Jobs</p>
-                  <FaTools className="text-[55px] text-white" />
+                  <p className='text-lg mb-[30px] px-[15px] text-center font-cormorant-garamond font-semibold text-white'>Office Jobs</p>
+                  <FaDesktop  className="text-[55px] text-white" />
                 </div>
                </div>
 
                <div className='flex flex-col justify-center items-center'>
                 <div className="flex flex-col justify-center items-center w-[300px] sm:w-[400px]
                 lg:w-48 h-48 bg-primary shadow-md">
-                  <p className='text-lg mb-[30px] text-center w-[100px] font-cormorant-garamond font-semibold text-white'>Construction Jobs</p>
-                  <FaTools className="text-[55px] text-white" />
+                  <p className='text-lg mb-[30px] px-[15px] text-center font-cormorant-garamond font-semibold text-white'>Hotel Jobs</p>
+                  <FaHotel className="text-[55px] text-white" />
                 </div>
                </div>
 
-              
-               
               </div>
             </div>
            </section>
