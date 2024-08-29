@@ -64,19 +64,54 @@ export default function Careers() {
             </div>
            </div>
 
-           <section className="bg-gray-100">
-            <h1 className='font-cormorant-garamond font-light text-tranceblue text-2xl pt-[130px] text-center 
-            lg:px-[250px]'>The most important factors distinguishing La ciudad as the nation&apos;s leading 
-            minority-owned construction firm:</h1>
-            <div className="flex justify-center items-center w-full h-auto px-[100px]">
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-[30px] sm:gap-[100px] sm:mt-[100px] mb-[50px]">
+           <section className="bg-gray-100 p-10">
+            <h1 className='font-cormorant-garamond font-semibold text-tranceblue text-2xl pt-[40px] text-center 
+            lg:px-[250px] mb-[40px]'>Explore the opportunities below:</h1>
+            <div className="flex justify-center w-full h-auto">
+              <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
+                
                <div className='flex flex-col justify-center items-center'>
-                <div className="flex flex-col justify-center items-center w-[200px] h-[200px] bg-primary shadow-md 
-                hover:scale-110 transition-transform duration-300 cursor-pointer">
-                  <p className='text-lg mt-[0px] mb-[30px] text-center w-[200px] font-cormorant-garamond font-semibold text-white'>Construction Jobs</p>
-                  <FaTools  className="text-[55px] text-white" />
+                <div className="flex flex-col justify-center items-center w-[300px] sm:w-[400px]
+                lg:w-48 h-48 bg-primary shadow-md">
+                  <p className='text-lg mb-[30px] text-center w-[100px] font-cormorant-garamond font-semibold text-white'>Construction Jobs</p>
+                  <FaTools className="text-[55px] text-white" />
                 </div>
                </div>
+               
+               <div className='flex flex-col justify-center items-center'>
+                <div className="flex flex-col justify-center items-center w-[300px] sm:w-[400px]
+                lg:w-48 h-48 bg-primary shadow-md">
+                  <p className='text-lg mb-[30px] text-center w-[100px] font-cormorant-garamond font-semibold text-white'>Construction Jobs</p>
+                  <FaTools className="text-[55px] text-white" />
+                </div>
+               </div>
+
+               <div className='flex flex-col justify-center items-center'>
+                <div className="flex flex-col justify-center items-center w-[300px] sm:w-[400px]
+                lg:w-48 h-48 bg-primary shadow-md">
+                  <p className='text-lg mb-[30px] text-center w-[100px] font-cormorant-garamond font-semibold text-white'>Construction Jobs</p>
+                  <FaTools className="text-[55px] text-white" />
+                </div>
+               </div>
+
+               <div className='flex flex-col justify-center items-center'>
+                <div className="flex flex-col justify-center items-center w-[300px] sm:w-[400px]
+                lg:w-48 h-48 bg-primary shadow-md">
+                  <p className='text-lg mb-[30px] text-center w-[100px] font-cormorant-garamond font-semibold text-white'>Construction Jobs</p>
+                  <FaTools className="text-[55px] text-white" />
+                </div>
+               </div>
+
+               <div className='flex flex-col justify-center items-center'>
+                <div className="flex flex-col justify-center items-center w-[300px] sm:w-[400px]
+                lg:w-48 h-48 bg-primary shadow-md">
+                  <p className='text-lg mb-[30px] text-center w-[100px] font-cormorant-garamond font-semibold text-white'>Construction Jobs</p>
+                  <FaTools className="text-[55px] text-white" />
+                </div>
+               </div>
+
+              
+               
               </div>
             </div>
            </section>
