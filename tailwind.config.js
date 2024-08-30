@@ -26,7 +26,8 @@ module.exports = {
         'buda': ['Buda', 'sans-serif'],
         'overlock': ['Overlock', 'cursive'],
         'cinzel': ['Cinzel', 'serif'],
-        'cormorant-garamond': ['Cormorant Garamond', 'serif']
+        'cormorant-garamond': ['Cormorant Garamond', 'serif'],
+        'raleway': ['Raleway', 'sans-serif']
       },
     },
   },

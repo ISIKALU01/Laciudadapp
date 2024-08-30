@@ -96,19 +96,19 @@ export default function Laciudadmall() {
               <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-black 
               bg-opacity-0 group-hover:bg-opacity-50 transition duration-300 ease-in-out">
                 <div className="flex flex-col items-center">
-                  <button className="text-black px-4 py-2 hover:bg-primary-200 font-cormorant-garamond text-secondary 
+                  <button className="text-black px-4 py-2 hover:bg-primary-200 font-raleway text-secondary 
                   transition duration-300 ease-in-out opacity-0 group-hover:opacity-100"
                   onClick={() => setShowModal(true)}
                  >
                   VIEW
                   </button>
-                  <p className='text-secondary font-cormorant-garamond text-2xl font-bold 
+                  <p className='text-secondary font-raleway text-2xl font-bold 
                   transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Laciudad Mall</p>
-                  <p className='text-secondary font-cormorant-garamond text-xl 
+                  <p className='text-secondary font-raleway text-xl 
                   transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>ongoing</p>
-                  <p className='text-secondary font-cormorant-garamond text-xl 
-                  transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Location: Victoria Island, Lagos </p>
-                  <p className='text-secondary font-cormorant-garamond text-xl 
+                  <p className='text-secondary font-raleway text-xl 
+                  transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Location- Ikota, Lagos</p>
+                  <p className='text-secondary font-raleway text-xl 
                   transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Type- Commercial Property</p>
                 </div>
 

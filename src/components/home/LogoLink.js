@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function LogoLink() {
   return (
-    <div className="relative mx-10 sm:px-10 mb-0 p-0">
+    <div className="relative mx-5 sm:px-10 mb-0 p-0">
       <Link href="/">
         <Image
             src="/LaCiudadcropped.png"

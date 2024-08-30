@@ -7,7 +7,7 @@ const CountupBoxes = () => {
   const [count3, setCount3] = useState(0);
   const [target1, setTarget1] = useState(10);
   const [target2, setTarget2] = useState(55);
-  const [target3, setTarget3] = useState(500);
+  const [target3, setTarget3] = useState(200);
 
   const containerRef = useRef(null);
   const interval1Ref = useRef(null);
@@ -21,10 +21,7 @@ const CountupBoxes = () => {
           if (entry.isIntersecting) {
             setIsVisible(true);
             startCounting();
-          } else {
-            setIsVisible(false);
-            stopCounting();
-          }
+          } 
         });
       },
       { threshold: 0.5 } // Trigger when 50% of the element is visible
@@ -79,44 +76,26 @@ const CountupBoxes = () => {
     }, 20);
   };
 
-  const stopCounting = () => {
-    if (interval1Ref.current !== null) {
-      clearInterval(interval1Ref.current);
-      interval1Ref.current = null;
-    }
-    if (interval2Ref.current !== null) {
-      clearInterval(interval2Ref.current);
-      interval2Ref.current = null;
-    }
-    if (interval3Ref.current !== null) {
-      clearInterval(interval3Ref.current);
-      interval3Ref.current = null;
-    }
-  };
 
-  useEffect(() => {
-    return () => {
-      stopCounting();
-    };
-  }, []);
+
 
   return (
     <div
       ref={containerRef}
-      className="flex justify-center items-center py-20 bg-secondary font-[pacifico]"
+      className="flex justify-center items-center py-20 bg-secondary font-cinzel"
     >
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 w-full max-w-4xl mx-auto mt-10 sm:justify-center">
       <div className="text-gray-600 px-8 py-6 rounded-lg flex flex-col items-center">
         <h3 className="text-7xl font-black mb-3">{isVisible ? count1 : 0}</h3>
-        <p className="text-2xl font-light font-[zilla]">Years in Business</p>
+        <p className="text-2xl font-normal font-raleway">Years in Business</p>
       </div>
       <div className="text-gray-600 px-8 py-6 rounded-lg flex flex-col items-center">
         <h3 className="text-7xl font-black mb-3">{isVisible ? count2 : 0}</h3>
-        <p className="text-2xl font-light font-[zilla]">Team Members</p>
+        <p className="text-2xl font-normal font-raleway">Team Members</p>
       </div>
       <div className="text-gray-600 px-8 py-6 rounded-lg pb-0 flex flex-col items-center">
         <h3 className="text-7xl font-black mb-3">{isVisible ? count3 : 0}</h3>
-        <p className="text-2xl font-light font-[zilla]">Jobs created</p>
+        <p className="text-2xl font-normal font-raleway">Jobs created</p>
       </div>
       </div>
     </div>

@@ -13,7 +13,7 @@ const ConstructionImageGrid = () => {
   return (
     <section className={styles.container}>
     <div className='flex sm:flex-row items-center flex-col sm:justify-center mx-auto bg-appgray/80 p-[20px]'>
-      <p className="text-[30px] text-center sm:text-[45px] font-light text-tranceblue mb-2 font-cormorant-garamond
+      <p className="text-[30px] text-center sm:text-[45px] font-light text-tranceblue mb-2 font-raleway
       ">Want to work with us?</p>
       <button className='sm:ml-[10px] flex flex-row text-tranceblue font-cinzel bg-primary text-white p-[5px] w-[250px]
       text-[15px]' onClick={handleOpenGoogleForm}>

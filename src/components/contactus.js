@@ -32,14 +32,14 @@ const ContactUs = () => {
 
   return (
     <div className="p-6 bg-secondary shadow-md pt-[100px]">
-        <h2 className="text-3xl text-center font-cormorant-garamond text-tranceblue font-bold mb-4">Contact Us</h2>
-        <h2 className="text-1xl text-center font-cormorant-garamond font-b mb-4">We&apos;d like to hear from you</h2>
+        <h2 className="text-3xl text-center font-cinzel text-tranceblue font-bold mb-4">Contact Us</h2>
+        <h2 className="text-1xl text-center font-raleway font-b mb-4">We&apos;d like to hear from you</h2>
     <div className='grid grid-cols-1 gap-8 lg:grid-cols-2 sm:px-[50px]'>
     <div className="flex flex-col space-y-4 sm:w-[400px]">
               <div className="flex items-center space-x-4">
                 <FaMapMarkerAlt className="text-gray-400" />
                 <div className="flex flex-col text-tranceblue">
-                  <span className="font-medium text-lg">LOCATION:</span>
+                  <span className="font-medium text-lg">OUR HEAD OFFICE:</span>
                   <span>40a, Oyibo Adjarho off Ayinde Akinmade, Admiralty Way, 
                     Lekki Phase 1,Lagos.</span>
                 </div>
@@ -59,24 +59,24 @@ const ContactUs = () => {
                 </div>
               </div>
               <div className="flex space-x-4 mt-4">
-                <a href="#" className="text-gray-400 hover:text-tranceblue">
+                <a href="#" className="text-gray-400 hover:text-white">
                   <FaFacebookF />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-tranceblue">
+                <a href="#" className="text-gray-400 hover:text-white">
                   <FaTwitter />
                 </a>
-                <a href="https://www.instagram.com/laciudadbuild?igsh=NDJ4bXd0Mzl0MWhw" className="text-gray-400 hover:text-tranceblue">
+                <a href="https://www.instagram.com/laciudadbuild?igsh=NDJ4bXd0Mzl0MWhw" className="text-gray-400 hover:text-white">
                   <FaInstagram />
                 </a>
-                <a href="https://www.linkedin.com/company/la-ciudad-construction-limited/" className="text-gray-400 hover:text-tranceblue">
+                <a href="https://www.linkedin.com/company/la-ciudad-construction-limited/" className="text-gray-400 hover:text-white">
                   <FaLinkedinIn />
                 </a>
               </div>
             </div>
       {submitted ? (
-        <p className="text-green-600">Thank you for your message!</p>
+        <p className="text-green-600 text-xl">Thank you for your message!</p>
       ) : (
-        <form onSubmit={handleSubmit} className='w-[300px]'>
+        <form onSubmit={handleSubmit} className='w-full'>
           <div className="mb-4">
             <label className="block mb-2" htmlFor="name">
               Name
@@ -88,7 +88,7 @@ const ContactUs = () => {
               value={formData.name}
               onChange={handleChange}
               required
-              className="w-full p-2 border border-gray-300 rounded bg-gray-300"
+              className="w-full p-2 border border-gray-300 bg-gray-300"
             />
           </div>
           <div className="mb-4">
@@ -102,7 +102,7 @@ const ContactUs = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              className="w-full p-2 border border-gray-300 rounded bg-gray-300"
+              className="w-full p-2 border border-gray-300 bg-gray-300"
             />
           </div>
           <div className="mb-4">
@@ -115,13 +115,13 @@ const ContactUs = () => {
               value={formData.message}
               onChange={handleChange}
               required
-              className="w-full p-2 border border-gray-300 rounded bg-gray-300"
+              className="w-full p-2 border border-gray-300 bg-gray-300"
               rows="4"
             />
           </div>
           <button
             type="submit"
-            className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition"
+            className="w-50 bg-blue-600 text-white px-[30px] py-2 hover:bg-blue-700 transition"
           >
             Send Message
           </button>

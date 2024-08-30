@@ -18,7 +18,7 @@ export default function Development () {
 
             <div className="w-full bg-white-200 mx-auto px-[50px] sm:px-20 mt-[10px] sm:flex sm:flex-col lg:px-30 flex 
            flex-col justify-center items-center">
-               <p className="text-sm sm:text-[18px] font-light text-tranceblue mb-5 font-cormorant-garamond text-black
+               <p className="text-sm sm:text-[18px] font-light text-tranceblue mb-5 font-raleway text-black
                text-center">
                La Ciudad Company creates sustainable projects that promote environmental sensitivity design, 
                entrepreneurship, education and connectivity. From single and multifamily properties to mixed-use 
@@ -26,7 +26,7 @@ export default function Development () {
                homebuyers, renters and retailers appreciable advantages and a great place to live, work and play. 
                </p>
 
-               <p className="text-sm sm:text-[18px] font-light text-tranceblue mb-5 font-cormorant-garamond text-black
+               <p className="text-sm sm:text-[18px] font-light text-tranceblue mb-5 font-raleway text-black
                text-center">
                From towering high-rises to cozy homes, we specialize in constructing spaces that withstand the test of 
                time. Our commitment to quality craftsmanship and attention to detail ensures that every industrial or 
@@ -72,7 +72,7 @@ export default function Development () {
               className="w-full h-full object-cover"
             />
            </div>
-           <p className='font-cinzel text-center text-black pt-[20px]'>Commercial Development</p>
+           <p className='font-cinzel text-center text-black pt-[20px]'>Modern Office Spaces Development</p>
          </div>
 
          <div className='flex flex-col'>

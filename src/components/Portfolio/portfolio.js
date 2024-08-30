@@ -99,13 +99,13 @@ export default function Portfolio() {
           </div>
 
           <div className='flex items-center justify-center'>
-            <h1 className="text-xl text-center sm:text-2xl font-cormorant-garamond w-[600px] font-semibold px-4">
+            <h1 className="text-xl text-gray-500 text-center sm:text-2xl font-raleway w-[600px] font-semibold px-4">
               Here are some of our construction projects in Nigeria. 
               Some are complete, while others are still under construction. Take a look!
             </h1>
           </div>
 
-          <div className="px-[10px] lg:px-[150px] py-8 grid grid-cols-1 gap-8 sm:grid-cols-2 mb-[50px] 
+          <div className="px-[10px] lg:px-[150px] py-8 grid grid-cols-1 gap-8 sm:grid-cols-2 pb-[100px] 
           justify-center items-center">
             <Laciudadmall />
             <Slowlagos />

@@ -66,13 +66,13 @@ export default function ConstructionTop({}) {
            flex-col justify-center">
               <h1 className="text-1xl mx-auto text-center sm:text-[25px] md:text-[30px] font-light text-tranceblue mb-2 font-cinzel
                flex justify-center pb-1">A TEAM WITH DEEP ROOTS IN CONSTRUCTION</h1> 
-               <p className="mx-auto text-sm sm:text-[18px] font-light text-tranceblue mb-5 font-cormorant-garamond">
+               <p className="mx-auto text-sm sm:text-[18px] font-light text-tranceblue mb-5 font-raleway">
                The Construction division offers a full range of services, including construction management, 
                general contracting, design-build/finance, preconstruction, and consulting. As a result of our 
                diverse range of services, La ciudad Company brings a wealth of talented, professional staff members to 
                every project.
                </p>
-               <p className="mx-auto text-sm sm:text-[18px] font-light text-tranceblue mb-5 font-cormorant-garamond">
+               <p className="mx-auto text-sm sm:text-[18px] font-light text-tranceblue mb-5 font-raleway">
                La ciudad diversified client base includes several Fortune 500 companies and mid-sized commercial 
                enterprises in the private sector along with public sector federal, state, county/city authorities.
                </p>

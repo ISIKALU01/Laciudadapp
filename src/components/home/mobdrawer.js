@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import {FiChevronDown } from 'react-icons/fi';
 import 'animate.css';
-import { FaWindows } from 'react-icons/fa';
 
 function MobileDrawer({isOpen, onClose}) {
   const drawerRef = useRef(null);
@@ -54,7 +53,7 @@ function MobileDrawer({isOpen, onClose}) {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
         </button>
-        <ul className="mt-[70px] text-secondary font-cormorant-garamond space-y-4">
+        <ul className="mt-[70px] text-secondary font-raleway space-y-4">
           <li className="text-xl hover:text-blue-900 hover:font-semibold border-b-2 border-secondary pb-2">
           <Link href="/">Home</Link>
           </li>
@@ -100,7 +99,7 @@ function MobileDrawer({isOpen, onClose}) {
                 </div>)}
           </li>
           <li className="text-xl hover:text-blue-900 hover:font-semibold border-b-2 border-secondary pb-2">
-          <Link href="/">Portfolio</Link>
+          <Link href="/portfolio">Portfolio</Link>
           </li>
           <li className="relative text-xl flex flex-row align-items hover:text-blue-900 hover:font-semibold border-b-2 border-secondary pb-2" onClick={toggleDropdown2}>
           <span className='cursor-pointer'>Services</span>
@@ -131,10 +130,10 @@ function MobileDrawer({isOpen, onClose}) {
                 </div>)}
           </li>
           <li className="text-xl hover:text-blue-900 hover:font-semibold border-b-2 border-secondary pb-2">
-          <Link href="/">Careers</Link>
+          <Link href="/careers">Careers</Link>
           </li>
           <li className="text-xl hover:text-blue-900 hover:font-semibold border-b-2 border-secondary pb-2">
-          <Link href="/">Contact Us</Link>
+          <Link href="/contactus">Contact Us</Link>
           </li>
         </ul> 
       </div>

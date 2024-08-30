@@ -149,7 +149,8 @@ const ExploreSection = () => {
         alt: 'Explore Image 1',
         title: 'WE ARE LA CIUDAD',
         description: 'We are highly skilled in successful construction project execution.',
-        button:'Our Projects'
+        button:'Our Projects',
+        href:'/portfolio'
   
       },
       {
@@ -158,7 +159,8 @@ const ExploreSection = () => {
         alt: 'Explore Image 2',
         title: 'WE ARE DEDICATED',
         description: 'Proven track record in construction project delivery.',
-        button:'Latest news'
+        button:'Latest news',
+        href:'/'
       },
       {
         id: 3,
@@ -166,7 +168,8 @@ const ExploreSection = () => {
         alt: 'Explore Image 3',
         title: 'WE ARE EXPERIENCED',
         description: 'Exceptional construction project management expertise.',
-        button:'Our history'
+        button:'Our history',
+        href:'/'
       },
     ];
 
@@ -216,12 +219,12 @@ const ExploreSection = () => {
                      <h3 className="text-[10px] font-cinzel sm:text-sm font-light mb-2">
                      {image.title}
                      </h3>
-                     <p className="text-white text-xl sm:text-2xl font-cormorant-garamond lg:text-4xl font-normal">
+                     <p className="text-white text-xl sm:text-2xl font-raleway lg:text-4xl font-normal">
                       {image.description}
                      </p>
-                     <button className="mt-4 font-cormorant-garamond bg-primary-500 px-4 hover:bg-primary-600 text-center text-white
+                     <button className="mt-4 font-raleway bg-primary-500 px-4 hover:bg-primary-600 text-center text-white
                      font-light py-2 transition-colors duration-300">
-                     <Link href={image.button}>
+                     <Link href={image.href}>
                      {image.button}
                      </Link>
                     </button>

@@ -68,7 +68,7 @@ export default function ProjectManagement() {
                flex justify-center">COMPREHENSIVE PROJECT MANAGEMENT SOLUTIONS</h1> 
                <h3 className="text-[10px] sm:text-[16px] mt-[0] sm:mt-[-10px] mx-auto text-center font-normal text-tranceblue mb-2
                flex justify-center pb-1 tracking-wider">for clients seeking guidance for their building programs</h3>
-               <p className="mx-auto text-sm sm:text-[18px] font-light text-tranceblue mb-5 font-cormorant-garamond">
+               <p className="mx-auto text-sm sm:text-[18px] font-light text-tranceblue mb-5 font-raleway">
                 At Laciudad, we are client-centered which is why we offer our program management services together, serving as your 
                 owners representative, or a la cart tailored to meet your specific organization and project needs. Whatever the way 
                 we just want to be of service and help you plan and execute your project and your vision. Our program management 
@@ -78,10 +78,10 @@ export default function ProjectManagement() {
                </p>
 
                <div>
-                <h1 className='font-cormorant-garamond text-xl'>Our Project Management Services include:</h1>
+                <h1 className='font-raleway text-xl'>Our Project Management Services include:</h1>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1 mt-10 mb-[100px]">
                   {listItems.map((item, index) => (
-                  <li key={index} className="p-4 font-cormorant-garamond text-lg">
+                  <li key={index} className="p-4 font-raleway text-lg">
                     <div className="flex items-start">
                      <span className="inline-block w-2 h-2 bg-gray-400 rounded-full mr-2 mt-3"></span>
                      <span>{item}</span>
@@ -187,12 +187,12 @@ export default function ProjectManagement() {
 
           <section className='bg-secondary px-[20px] lg:px-[100px]'>
               <div>
-                <h1 className='font-cormorant-garamond text-2xl text-center pt-[50px]'>WHO WE HELP</h1>
-                <p className='font-cormorant-garamond text-xl pt-[50px]'>For over a decade we have worked with some of the nation&apos;s leading organizations and institutions 
+                <h1 className='font-raleway text-2xl text-center pt-[50px]'>WHO WE HELP</h1>
+                <p className='font-raleway text-xl pt-[50px]'>For over a decade we have worked with some of the nation&apos;s leading organizations and institutions 
                   and partnered with some of the best of our fellow AEC firms. We routinely work for clients such as:</p>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1 pb-[100px]">
                   {listItems2.map((item, index) => (
-                  <li key={index} className="p-4 font-cormorant-garamond text-xl">
+                  <li key={index} className="p-4 font-raleway text-xl">
                     <div className="flex items-start">
                      <span className="inline-block w-2 h-2 bg-gray-400 rounded-full mr-2 mt-3"></span>
                      <span>{item}</span>
