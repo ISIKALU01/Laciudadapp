@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="container mx-auto px-10 py-10">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
           <div>
-            <h3 className="text-2xl font-medium pb-10">LET'S BUILD THE FUTURE. TOGETHER.</h3>
+            <h3 className="text-2xl font-medium pb-10">LET&apos;S BUILD THE FUTURE. TOGETHER.</h3>
             <button className='bg-primary text-white px-[30px] py-[10px] hover:bg-blue-600'>
               <Link href='/contactus'>Contact Us</Link>
             </button>

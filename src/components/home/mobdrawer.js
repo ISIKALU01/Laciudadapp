@@ -117,12 +117,12 @@ function MobileDrawer({isOpen, onClose}) {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/company/about" className="block px-4 py-1 font-open-sans text-sm hover:font-semibold hover:text-primary border-b-2 border-primary">
+                      <Link href="/services/development" className="block px-4 py-1 font-open-sans text-sm hover:font-semibold hover:text-primary border-b-2 border-primary">
                         DEVELOPMENT
                       </Link>
                     </li>
                     <li>
-                      <Link href="/products/category3" className="block px-4 py-1 font-open-sans text-sm hover:font-semibold hover:text-primary">
+                      <Link href="/services/project" className="block px-4 py-1 font-open-sans text-sm hover:font-semibold hover:text-primary">
                         PROJECT MANAGEMENT
                       </Link>
                     </li>
