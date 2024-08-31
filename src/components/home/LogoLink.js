@@ -6,12 +6,13 @@ export default function LogoLink() {
   return (
     <div className="mx-5 sm:px-10">
       <Link href="/">
-        <div class='h-full'>
+        <div class='relative h-20 w-40'>
         <Image
-            src="/LaCiudadcropped.png"
+            src="/LaCiudadcropped.webp"
             alt="Your Brand Logo"
-            width={100}
-            height={100}
+            layout="fill"
+            objectFit="contain" 
+            objectPosition="center"
         />
         </div>
       </Link>

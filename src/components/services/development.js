@@ -8,7 +8,7 @@ export default function Development () {
 
     return (
         <>
-        <section className='mt-[-13px] bg-secondary'>
+        <section className='bg-secondary'>
         <Navbar />
             <div className="w-full mx-auto px-30 mt-[80px] sm:flex sm:flex-col lg:px-30 flex flex-col justify-center">
               <h1 className="text-1xl mx-auto text-center sm:text-4xl font-light text-tranceblue mb-5 font-cinzel 
