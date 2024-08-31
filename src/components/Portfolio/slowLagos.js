@@ -120,13 +120,13 @@ export default function Slowlagos() {
                  >
                   VIEW
                   </button>
-                  <p className='text-secondary font-raleway text-2xl font-bold 
+                  <p className='text-secondary font-raleway text-xl font-bold 
                   transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Slow</p>
-                  <p className='text-secondary font-raleway text-xl 
+                  <p className='text-secondary font-raleway text-sm 
                   transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Project year-2022</p>
-                  <p className='text-secondary font-raleway text-xl 
+                  <p className='text-secondary font-raleway text-sm 
                   transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Location: Victoria Island, Lagos </p>
-                  <p className='text-secondary font-raleway text-xl 
+                  <p className='text-secondary font-raleway text-sm 
                   transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Type- Food Services</p>
                 </div>
 

@@ -31,8 +31,8 @@ export default function Careers() {
 
           <div className='flex items-center flex-col justify-center'>
             <h1 className="text-xl text-center sm:text-3xl font-raleway
-            px-4 mb-[50px] font-normal text-tranceblue">JOIN OUR TEAM</h1>
-            <p className='px-[30px] lg:px-[100px] font-raleway text-lg text-tranceblue mb-[70px]'>
+            px-4 mb-[50px] font-semibold text-tranceblue">JOIN OUR TEAM</h1>
+            <p className='px-[30px] lg:px-[100px] font-raleway text-md text-tranceblue mb-[70px]'>
               While we have an inclusive culture and an open management approach system, we pride ourselves 
               on hiring talented individuals while building a high-performance management organization. We are 
               committed to the development of our employees, which is why we offer a range of training programs 
@@ -56,8 +56,8 @@ export default function Careers() {
 
             <div className='flex items-center flex-col justify-center'>
               <h1 className="text-xl sm:text-3xl font-raleway
-              px-4 mb-[10px] font-normal text-tranceblue">EXPLORE THE POSSIBILITIES</h1>
-              <p className='px-[10px] font-raleway text-lg text-tranceblue'>
+              px-4 mb-[10px] font-semibold text-tranceblue">EXPLORE THE POSSIBILITIES</h1>
+              <p className='px-[10px] font-raleway text-md text-tranceblue'>
               Our workplace culture entails excellence, motivation, collaboration, and a high-level commitment to 
               innovation. Because we value our people, we foster an environment that rewards talent, integrity, and hard work. 
               As a result, we strive to hire candidates who demonstrate our values in their day-to-day work activities.</p>
@@ -65,7 +65,7 @@ export default function Careers() {
            </div>
 
            <section className="bg-gray-100 p-10">
-            <h1 className='font-raleway font-normal text-tranceblue text-2xl pt-[40px] text-center 
+            <h1 className='font-raleway font-normal text-tranceblue text-xl pt-[40px] text-center 
             lg:px-[250px] mb-[40px]'>Explore the opportunities below:</h1>
             <div className="flex justify-center w-full h-auto">
               <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
@@ -117,9 +117,9 @@ export default function Careers() {
 
            <div className='bg-secondary flex flex-col justify-center items-center'>
                 <h1 className='font-raleway text-2xl text-center pt-[50px]'>BENEFITS</h1>
-                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1 pb-[100px]">
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1 pb-[100px] px-[30px]">
                   
-                  <li className="p-4 font-raleway text-xl">
+                  <li className="p-4 font-raleway text-md">
                     <div className="flex items-start">
                      <span className="inline-block w-5 h-5  mr-2 mt-2">
                       <FaPlus className="text-[15px] text-primary" /></span>
@@ -127,7 +127,7 @@ export default function Careers() {
                     </div>
                   </li>
 
-                  <li className="p-4 font-raleway text-xl">
+                  <li className="p-4 font-raleway text-md">
                     <div className="flex items-start">
                      <span className="inline-block w-5 h-5  mr-2 mt-2">
                       <FaBriefcase className="text-[15px] text-primary" /></span>
@@ -135,7 +135,7 @@ export default function Careers() {
                     </div>
                   </li>
 
-                  <li className="p-4 font-raleway text-xl">
+                  <li className="p-4 font-raleway text-md">
                     <div className="flex items-start">
                      <span className="inline-block w-5 h-5  mr-2 mt-2">
                       <FaMoneyBill className="text-[15px] text-primary" /></span>
@@ -143,7 +143,7 @@ export default function Careers() {
                     </div>
                   </li>
 
-                  <li className="p-4 font-raleway text-xl">
+                  <li className="p-4 font-raleway text-md">
                     <div className="flex items-start">
                      <span className="inline-block w-5 h-5  mr-2 mt-2">
                       <FaShieldAlt className="text-[15px] text-primary" /></span>
@@ -151,7 +151,7 @@ export default function Careers() {
                     </div>
                   </li>
 
-                  <li className="p-4 font-raleway text-xl">
+                  <li className="p-4 font-raleway text-md">
                     <div className="flex items-start">
                      <span className="inline-block w-5 h-5  mr-2 mt-2">
                       <FaRibbon className="text-[15px] text-primary" /></span>
@@ -159,7 +159,7 @@ export default function Careers() {
                     </div>
                   </li>
 
-                  <li className="p-4 font-raleway text-xl">
+                  <li className="p-4 font-raleway text-md">
                     <div className="flex items-start">
                      <span className="inline-block w-5 h-5  mr-2 mt-2">
                       <FaWheelchair className="text-[15px] text-primary" /></span>
@@ -167,7 +167,7 @@ export default function Careers() {
                     </div>
                   </li>
 
-                  <li className="p-4 font-raleway text-xl">
+                  <li className="p-4 font-raleway text-md">
                     <div className="flex items-start">
                      <span className="inline-block w-5 h-5  mr-2 mt-2">
                       <FaVest  className="text-[15px] text-primary" /></span>
@@ -175,7 +175,7 @@ export default function Careers() {
                     </div>
                   </li>
 
-                  <li className="p-4 font-raleway text-xl">
+                  <li className="p-4 font-raleway text-md">
                     <div className="flex items-start">
                      <span className="inline-block w-5 h-5  mr-2 mt-2">
                       <FaRegCalendarAlt  className="text-[15px] text-primary" /></span>
@@ -183,7 +183,7 @@ export default function Careers() {
                     </div>
                   </li>
 
-                  <li className="p-4 font-raleway text-xl">
+                  <li className="p-4 font-raleway text-md">
                     <div className="flex items-start">
                      <span className="inline-block w-5 h-5  mr-2 mt-2">
                       <FaRegClock className="text-[15px] text-primary" /></span>
@@ -191,7 +191,7 @@ export default function Careers() {
                     </div>
                   </li>
 
-                  <li className="p-4 font-raleway text-xl">
+                  <li className="p-4 font-raleway text-md">
                     <div className="flex items-start">
                      <span className="inline-block w-5 h-5  mr-2 mt-2">
                       <FaSuperpowers  className="text-[15px] text-primary" /></span>

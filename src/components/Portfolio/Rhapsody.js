@@ -145,13 +145,13 @@ export default function Rhapsody() {
                  >
                   VIEW
                   </button>
-                  <p className='text-secondary font-raleway text-2xl font-bold 
+                  <p className='text-secondary font-raleway text-xl font-bold 
                   transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Rhapsody </p>
-                  <p className='text-secondary font-raleway text-xl 
+                  <p className='text-secondary font-raleway text-sm 
                   transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Project year- 2021 </p>
-                  <p className='text-secondary font-raleway text-xl 
+                  <p className='text-secondary font-raleway text-sm 
                   transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Location- Wuse 2, Abuja</p>
-                  <p className='text-secondary font-raleway text-xl 
+                  <p className='text-secondary font-raleway text-sm 
                   transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Type: Entertainment and lifestyle</p>
                 </div>
 

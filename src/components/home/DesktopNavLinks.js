@@ -39,21 +39,21 @@ export default function DesktopNavLinks() {
     
   return (
     <ul className="absolute right-20 flex flex-row space-x-6 font-semibold font-raleway text-primary px-12">
-      <li className="text-lg hover:text-blue-900 transition-colors duration-300">
+      <li className="text-xl hover:text-blue-900 transition-colors duration-300">
         <Link href="/">Home</Link>
       </li>
-      <li className={`text-lg group hover:text-blue-900 transition-colors duration-300 
+      <li className={`text-xl group hover:text-blue-900 transition-colors duration-300 
       ${openDropdownIndex === 0 ? 'open' : ''}`}
       onMouseEnter={() => toggleDropdown(0)}
       onMouseLeave={() => closeDropdown(0)}
       onFocus={() => toggleDropdown(0)}
       onBlur={() => closeDropdown(0)}
       onClick={() => toggleDropdown(0)}>
-        <span className="px-3 py-2 rounded-md text-lg cursor-pointer">
+        <span className="px-3 py-2 rounded-md text-xl cursor-pointer">
           Company
         </span>
         {openDropdownIndex === 0 &&(
-          <div className='mt-5 absolute z-10 w-60 text-secondary font-normal shadow-lg bg-gray-800/50' 
+          <div className='mt-4 absolute z-10 w-60 text-secondary font-normal shadow-lg bg-gray-800/50' 
           onMouseEnter={() => cancelCloseDropdown(0)} onMouseLeave={() => closeDropdown(0)}>
                   <ul className="py-1">
                     <li>
@@ -85,21 +85,21 @@ export default function DesktopNavLinks() {
                 </div>)}
         
       </li>
-      <li className="text-lg hover:text-blue-900 transition-colors duration-300">
+      <li className="text-xl hover:text-blue-900 transition-colors duration-300">
         <Link href="/portfolio">Portfolio</Link>
       </li>
-      <li className={`text-lg group hover:text-blue-900 transition-colors duration-300 
+      <li className={`text-xl group hover:text-blue-900 transition-colors duration-300 
       ${openDropdownIndex === 1 ? 'open' : ''}`}
       onMouseEnter={() => toggleDropdown(1)}
       onMouseLeave={() => closeDropdown(1)}
       onFocus={() => toggleDropdown(1)}
       onBlur={() => closeDropdown(1)}
       onClick={() => toggleDropdown(1)}>
-        <span className="px-3 py-2 cursor-pointer rounded-md text-lg">
+        <span className="px-3 py-2 cursor-pointer rounded-md text-xl">
           Services
         </span>
         {openDropdownIndex === 1 &&(
-          <div className='mt-5 absolute z-10 w-60 text-secondary font-normal shadow-lg bg-gray-800/50' 
+          <div className='mt-4 absolute z-10 w-60 text-secondary font-normal shadow-lg bg-gray-800/50' 
           onMouseEnter={() => cancelCloseDropdown(1)} onMouseLeave={() => closeDropdown(1)}>
                   <ul className="py-1">
                     <li>
@@ -121,10 +121,10 @@ export default function DesktopNavLinks() {
                 </div>)}
         
       </li>
-      <li className="text-lg hover:text-blue-900 transition-colors duration-300">
+      <li className="text-xl hover:text-blue-900 transition-colors duration-300">
         <Link href="/careers">Careers</Link>
       </li>
-      <li className="text-lg hover:text-blue-900 transition-colors duration-300">
+      <li className="text-xl hover:text-blue-900 transition-colors duration-300">
         <Link href="/contactus">Contact us</Link>
       </li>
     </ul>

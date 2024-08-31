@@ -17,7 +17,7 @@ export default function Navbar() {
 
       return (
         <>
-          <div className="hidden absolute top-0 left-0 w-full bg-appgray bg-opacity-80 py-0 lg:flex flex-col 
+          <div className="hidden absolute top-0 left-0 w-full bg-appgray bg-opacity-80 lg:flex flex-col 
           justify-center">
             <LogoLink />
             <DesktopNavLinks />

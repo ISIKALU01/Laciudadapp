@@ -77,11 +77,11 @@ export default function ProjectManagement() {
                 projects, comprehensive building programs, even multi-location/multi-project programs. Large or small we, we can help with them all.
                </p>
 
-               <div>
+               <div className='text-tranceblue'>
                 <h1 className='font-raleway text-xl'>Our Project Management Services include:</h1>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1 mt-10 mb-[100px]">
                   {listItems.map((item, index) => (
-                  <li key={index} className="p-4 font-raleway text-lg">
+                  <li key={index} className="p-4 font-raleway text-md md:text-lg">
                     <div className="flex items-start">
                      <span className="inline-block w-2 h-2 bg-gray-400 rounded-full mr-2 mt-3"></span>
                      <span>{item}</span>
@@ -187,12 +187,12 @@ export default function ProjectManagement() {
 
           <section className='bg-secondary px-[20px] lg:px-[100px]'>
               <div>
-                <h1 className='font-raleway text-2xl text-center pt-[50px]'>WHO WE HELP</h1>
-                <p className='font-raleway text-xl pt-[50px]'>For over a decade we have worked with some of the nation&apos;s leading organizations and institutions 
+                <h1 className='font-raleway text-xl md:text-2xl text-center pt-[50px]'>WHO WE HELP</h1>
+                <p className='font-raleway text-md md:text-xl pt-[50px]'>For over a decade we have worked with some of the nation&apos;s leading organizations and institutions 
                   and partnered with some of the best of our fellow AEC firms. We routinely work for clients such as:</p>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1 pb-[100px]">
                   {listItems2.map((item, index) => (
-                  <li key={index} className="p-4 font-raleway text-xl">
+                  <li key={index} className="p-4 font-raleway text-md md:text-xl">
                     <div className="flex items-start">
                      <span className="inline-block w-2 h-2 bg-gray-400 rounded-full mr-2 mt-3"></span>
                      <span>{item}</span>

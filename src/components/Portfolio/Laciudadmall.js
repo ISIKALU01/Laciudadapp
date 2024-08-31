@@ -102,13 +102,13 @@ export default function Laciudadmall() {
                  >
                   VIEW
                   </button>
-                  <p className='text-secondary font-raleway text-2xl font-bold 
+                  <p className='text-secondary font-raleway text-xl font-bold 
                   transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Laciudad Mall</p>
-                  <p className='text-secondary font-raleway text-xl 
+                  <p className='text-secondary font-raleway text-sm font-light
                   transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>ongoing</p>
-                  <p className='text-secondary font-raleway text-xl 
+                  <p className='text-secondary font-raleway text-sm font-light
                   transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Location- Ikota, Lagos</p>
-                  <p className='text-secondary font-raleway text-xl 
+                  <p className='text-secondary font-raleway text-sm font-light
                   transition duration-300 ease-in-out opacity-0 group-hover:opacity-100'>Type- Commercial Property</p>
                 </div>
 
