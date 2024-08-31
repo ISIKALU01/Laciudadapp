@@ -19,6 +19,8 @@ const ExecutiveTeam = () => {
           />
           <p className="text-center mt-2 text-tranceblue font-bold">JOHN DADA </p>
           <p className="text-center mt-2 text-tranceblue font-light">Chief Executive Officer (CEO)</p>
+          <div className='border-b-1 border-primary w-[25px] mx-auto mt-0 text-center mb-[60px]'></div> 
+
         </div>
 
         <div className="flex flex-col items-center bg-white p-10">
@@ -31,6 +33,7 @@ const ExecutiveTeam = () => {
           />
           <p className="text-center mt-2 text-tranceblue font-bold">JOSHUA DADA</p>
           <p className="text-center mt-2 text-tranceblue font-light">Chief Operating Officer (COO)</p>
+          <div className='border-b-1 border-primary w-[25px] mx-auto mt-0 text-center mb-[60px]'></div> 
         </div>
 
 
@@ -44,6 +47,7 @@ const ExecutiveTeam = () => {
           />
           <p className="text-center mt-2 text-tranceblue font-bold">YASSER MUSTAPHA</p>
           <p className="text-center mt-2 text-tranceblue font-light">Civil Engineer</p>
+          <div className='border-b-1 border-primary w-[25px] mx-auto mt-0 text-center mb-[60px]'></div> 
         </div>
 
 
@@ -57,6 +61,7 @@ const ExecutiveTeam = () => {
            />
           <p className="text-center mt-2 text-tranceblue font-bold">KEHINDE TOYO</p>
           <p className="text-center mt-2 text-tranceblue font-light">Legal Advisor/Company Secretary</p>
+          <div className='border-b-1 border-primary w-[25px] mx-auto mt-0 text-center mb-[60px]'></div> 
         </div>
       </div>
       <Navbar />
