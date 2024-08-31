@@ -223,7 +223,7 @@ const ExploreSection = () => {
                       {image.description}
                      </p>
                      <button className="mt-4 font-raleway bg-primary-500 px-4 hover:bg-primary-600 text-center text-white
-                     font-light py-2 transition-colors duration-300 text-md">
+                     font-light py-2 transition-colors duration-300 text-sm">
                      <Link href={image.href}>
                      {image.button}
                      </Link>
