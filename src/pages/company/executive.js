@@ -1,16 +1,14 @@
-import Link from 'next/link';
-import Navbar from '../../components/home/navigation'
-import Footer from '../../components/Footer'
+import Navbar from '../../components/home/navigation';
+import Executive from '../../components/executive';
+import Footer from '../../components/Footer';
 
-function Executive() {
+function Executives() {
   return (
     <>
-    <Navbar />
-    
-
+    <Executive />
     <Footer />
     </>
   );
 }
 
-export default Executive;
+export default Executives;
