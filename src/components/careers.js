@@ -17,7 +17,7 @@ const handleOpenGoogleForm = () => {
 export default function Careers() {
   const [ref, inView] = useInView({
     triggerOnce: true, // Only trigger once
-    threshold: 0.5, // Trigger animation when 50% of the element is in view
+    threshold: 0.1, // Trigger animation when 50% of the element is in view
   });
   
         return (
@@ -55,7 +55,7 @@ export default function Careers() {
               ref={ref} 
               initial={{ opacity: 0, x: -100 }} 
               animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -100 }} 
-              transition={{ duration: 0.5 }} 
+              transition={{ duration: 0.5, ease: "easeOut" }} 
               className="w-full h-72 sm:h-144 sm:h-72 overflow-hidden flex flex-col"
               >
              <Image
@@ -63,7 +63,7 @@ export default function Careers() {
               alt="Image 1"
               width={2000}
               height={1500}
-              className="w-full h-full object-cover transform group-hover:scale-110 transition duration-300 ease-in-out"
+              className="w-full h-full object-cover"
             />
             </motion.div>
 
@@ -71,7 +71,7 @@ export default function Careers() {
              ref={ref} 
              initial={{ opacity: 0, x: 100 }} 
              animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 100 }} 
-             transition={{ duration: 0.5 }} 
+             transition={{ duration: 0.5, ease: "easeOut" }} 
              className='flex items-center flex-col justify-center'
              >
               <h1 className="text-xl sm:text-3xl font-raleway px-4 mb-[10px] font-semibold text-tranceblue">EXPLORE THE POSSIBILITIES</h1>

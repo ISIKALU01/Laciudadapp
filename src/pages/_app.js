@@ -1,20 +1,19 @@
-import "@/styles/globals.css";
+import '@/styles/globals.css';
 import 'tailwindcss/tailwind.css';
 import BackToTop from '../components/BacktoTop';
-import {useState, useEffect, useRef} from 'react';
-import { useRouter } from 'next/router'
+import { useState, useEffect, useRef } from 'react';
+import { useRouter } from 'next/router';
 
 export default function App({ Component, pageProps }) {
-  const [loading, setLoading] = useState(true)
-  const router = useRouter()
+  const [loading, setLoading] = useState(true);
+  const router = useRouter();
   const imagesLoaded = useRef(false);
-
 
   useEffect(() => {
     const handleStart = (url) => {
-      url !== router.pathname ? setLoading(true) : setLoading(false)
+      url !== router.pathname ? setLoading(true) : setLoading(false);
       imagesLoaded.current = false; // Reset images loaded state on route change
-    }
+    };
 
     const handleComplete = (url) => {
       setLoading(false);
@@ -23,11 +22,11 @@ export default function App({ Component, pageProps }) {
       }
     };
 
-    router.events.on('routeChangeStart', handleStart)
-    router.events.on('routeChangeComplete', handleComplete)
-    router.events.on('routeChangeError', handleComplete)
+    router.events.on('routeChangeStart', handleStart);
+    router.events.on('routeChangeComplete', handleComplete);
+    router.events.on('routeChangeError', handleComplete);
 
-    if (router.isReady) {
+    const checkImagesLoaded = () => {
       const images = document.querySelectorAll('.next-image');
 
       if (images.length === 0) {
@@ -52,15 +51,18 @@ export default function App({ Component, pageProps }) {
           }
         });
       }
+    };
+
+    if (router.isReady) {
+      checkImagesLoaded();
     }
 
     return () => {
-      router.events.off('routeChangeStart', handleStart)
-      router.events.off('routeChangeComplete', handleComplete)
-      router.events.off('routeChangeError', handleComplete)
-    }
-  }, [router])
-
+      router.events.off('routeChangeStart', handleStart);
+      router.events.off('routeChangeComplete', handleComplete);
+      router.events.off('routeChangeError', handleComplete);
+    };
+  }, [router]);
 
   return (
     <div>
@@ -69,10 +71,8 @@ export default function App({ Component, pageProps }) {
           <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-white"></div>
         </div>
       )}
-    <Component {...pageProps} />;
-    <BackToTop />
+      <Component {...pageProps} />
+      <BackToTop />
     </div>
-  )
-  
-
+  );
 }
