@@ -53,7 +53,7 @@ export default function DesktopNavLinks() {
           Company
         </span>
         {openDropdownIndex === 0 &&(
-          <div className='mt-7 absolute z-10 w-60 text-secondary font-normal shadow-lg bg-gray-800/50' 
+          <div className='mt-[26px] absolute z-10 w-60 text-secondary font-normal shadow-lg bg-gray-800/50' 
           onMouseEnter={() => cancelCloseDropdown(0)} onMouseLeave={() => closeDropdown(0)}>
                   <ul className="py-1">
                     <li>
@@ -67,7 +67,7 @@ export default function DesktopNavLinks() {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/products/category3" className="block px-4 py-1 font-open-sans text-sm hover:font-semibold hover:text-primary">
+                      <Link href="/company/news" className="block px-4 py-1 font-open-sans text-sm hover:font-semibold hover:text-primary">
                         NEWS
                       </Link>
                     </li>
@@ -89,7 +89,7 @@ export default function DesktopNavLinks() {
           Services
         </span>
         {openDropdownIndex === 1 &&(
-          <div className='mt-7 absolute z-10 w-60 text-secondary font-normal shadow-lg bg-gray-800/50' 
+          <div className='mt-[26px] absolute z-10 w-60 text-secondary font-normal shadow-lg bg-gray-800/50' 
           onMouseEnter={() => cancelCloseDropdown(1)} onMouseLeave={() => closeDropdown(1)}>
                   <ul className="py-1">
                     <li>

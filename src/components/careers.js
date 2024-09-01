@@ -2,7 +2,12 @@ import React, {useState} from 'react';
 import Image from 'next/image'
 import Navbar from '@/components/home/navigation';
 import { FaBriefcase, FaPlus, FaFileAlt, FaTools, FaHandHolding, FaDesktop, FaLaptop, FaMoneyBill, FaHotel, FaRibbon, FaShieldAlt, FaWheelchair, FaVest, FaRegCalendarAlt, FaRegClock, FaSuperpowers} from 'react-icons/fa';
-import 'animate.css'
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
+
+
+
+
 
 const handleOpenGoogleForm = () => {
   // Redirect the user to the Google Form link
@@ -10,6 +15,10 @@ const handleOpenGoogleForm = () => {
 };
 
 export default function Careers() {
+  const [ref, inView] = useInView({
+    triggerOnce: true, // Only trigger once
+    threshold: 0.5, // Trigger animation when 50% of the element is in view
+  });
   
         return (
           <>
@@ -41,28 +50,38 @@ export default function Careers() {
           </div>
 
 
-          <div className="bg-gray-300 px-[10px] lg:px-[150px] py-8 grid grid-cols-1 gap-8 sm:grid-cols-2 pb-[50px] 
-          justify-center items-center pt-[100px]">
-            <div className="w-full h-72 sm:h-144 sm:h-72 overflow-hidden flex flex-col">
-                <Image
-                  src="/careers (2).jpg"
-                  alt="Image 1"
-                  width={2000}
-                  height={1500}
-                  className="w-full h-full object-cover transform group-hover:scale-110 transition 
-                  duration-300 ease-in-out"
-                />
-            </div>
+          <div className="bg-gray-300 px-[10px] lg:px-[150px] py-8 grid grid-cols-1 gap-8 sm:grid-cols-2 pb-[50px] justify-center items-center pt-[100px]">
+            <motion.div 
+              ref={ref} 
+              initial={{ opacity: 0, x: -100 }} 
+              animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -100 }} 
+              transition={{ duration: 0.5 }} 
+              className="w-full h-72 sm:h-144 sm:h-72 overflow-hidden flex flex-col"
+              >
+             <Image
+              src="/careers (2).jpg"
+              alt="Image 1"
+              width={2000}
+              height={1500}
+              className="w-full h-full object-cover transform group-hover:scale-110 transition duration-300 ease-in-out"
+            />
+            </motion.div>
 
-            <div className='flex items-center flex-col justify-center'>
-              <h1 className="text-xl sm:text-3xl font-raleway
-              px-4 mb-[10px] font-semibold text-tranceblue">EXPLORE THE POSSIBILITIES</h1>
+            <motion.div 
+             ref={ref} 
+             initial={{ opacity: 0, x: 100 }} 
+             animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 100 }} 
+             transition={{ duration: 0.5 }} 
+             className='flex items-center flex-col justify-center'
+             >
+              <h1 className="text-xl sm:text-3xl font-raleway px-4 mb-[10px] font-semibold text-tranceblue">EXPLORE THE POSSIBILITIES</h1>
               <p className='px-[10px] font-raleway text-md text-tranceblue'>
-              Our workplace culture entails excellence, motivation, collaboration, and a high-level commitment to 
-              innovation. Because we value our people, we foster an environment that rewards talent, integrity, and hard work. 
-              As a result, we strive to hire candidates who demonstrate our values in their day-to-day work activities.</p>
-            </div>
-           </div>
+                Our workplace culture entails excellence, motivation, collaboration, and a high-level commitment to innovation. 
+                Because we value our people, we foster an environment that rewards talent, integrity, and hard work. 
+                As a result, we strive to hire candidates who demonstrate our values in their day-to-day work activities.
+              </p>
+            </motion.div>
+          </div>
 
            <section className="bg-gray-100 p-10">
             <h1 className='font-raleway font-normal text-tranceblue text-xl pt-[40px] text-center 

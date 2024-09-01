@@ -9,7 +9,10 @@ const ContactUs = () => {
     email: '',
     message: '',
   });
+
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -19,6 +22,8 @@ const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoading(true);
+
 
     emailjs.send('service_1liigqb', 'template_pk1sqjs', formData, 'sAH4wWIWjavoQF91o')
       .then((response) => {
@@ -27,12 +32,16 @@ const ContactUs = () => {
       })
       .catch((err) => {
         console.error('FAILED...', err);
+      })
+      .finally(() => {
+        setLoading(false);
       });
+      ;
   };
 
   return (
     <div className="p-6 bg-secondary shadow-md pt-[100px]">
-        <h2 className="text-3xl text-center font-cinzel text-tranceblue font-bold mb-4">Contact Us</h2>
+        <h2 className="text-3xl text-center font-cinzel text-tranceblue font-semibold mb-4">Contact Us</h2>
         <h2 className="text-1xl text-center font-raleway font-b mb-4">We&apos;d like to hear from you</h2>
     <div className='grid grid-cols-1 gap-8 lg:grid-cols-2 sm:px-[50px] font-raleway'>
     <div className="flex flex-col space-y-4 sm:w-[400px]">
@@ -74,7 +83,7 @@ const ContactUs = () => {
               </div>
             </div>
       {submitted ? (
-        <p className="text-green-600 text-xl font-raleway">Thank you for your message!</p>
+        <p className="text-green-600 text-2xl font-raleway">Thank you for your message!</p>
       ) : (
         <form onSubmit={handleSubmit} className='w-full'>
           <div className="mb-4">
@@ -122,8 +131,10 @@ const ContactUs = () => {
           <button
             type="submit"
             className="w-50 bg-blue-600 text-white px-[30px] py-2 hover:bg-blue-700 transition"
+            disabled={loading}
           >
-            Send Message
+            {loading ? 'Sending...' : 'Send Message'}
+            {loading && <div className="loader absolute top-0 right-0 mt-2 mr-2" />}
           </button>
         </form>
       )}

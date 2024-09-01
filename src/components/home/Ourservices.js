@@ -43,7 +43,7 @@ const ImageGrid = () => {
               <Link href='/services/development'>
               <div className="absolute top-0 left-0 w-full bg-black/50 h-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 -translate-y-4 group-hover:translate-y-0">
                   <p className="text-white py-6 mt-4 font-raleway font-light px-5 text-sm -translate-y-4 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
-                    The development arm of Luciudad, is a pioneering urban developer whose purpose is to be a catalyst for urban transformation
+                    The development arm of laciudad, is a thriving urban developer whose purpose is to be a catalyst for urban transformation
                     creating sustainable single and multi-family properties and mixed-used communities that promote community and economic empowerment.
                   </p>
               </div>

@@ -41,7 +41,7 @@ export default function ProjectManagement() {
   
         return (
           <>
-          <section className={styles.container}>
+          <section className="bg-secondary">
           <Navbar />
             <div className="w-full mx-auto px-30 mt-[80px] sm:flex sm:flex-col lg:px-30 flex flex-col justify-center">
               <h1 className="text-1xl mx-auto text-center sm:text-4xl font-light text-tranceblue mb-5 font-cinzel 
@@ -107,8 +107,8 @@ export default function ProjectManagement() {
                        className="w-full h-full object-cover" 
                     />
                    </div>
-                   <div className="w-full sm:w-1/2 px-[2px]">
-                    <p>Currently managing over N100 billion in Projects</p>
+                   <div className="w-full sm:w-1/2 px-[5px]">
+                    <p>Currently managing over N5 billion in Projects</p>
                    </div>
                  </div>
 
