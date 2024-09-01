@@ -50,7 +50,8 @@ export default function Careers() {
           </div>
 
 
-          <div className="bg-gray-300 px-[10px] lg:px-[150px] py-8 grid grid-cols-1 gap-8 sm:grid-cols-2 pb-[50px] justify-center items-center pt-[100px]">
+          <div className="bg-gray-300 px-[10px] lg:px-[150px] py-8 grid grid-cols-1 gap-8 sm:grid-cols-2 pb-[50px] 
+          justify-center items-center pt-[100px] overflow-hidden">
             <motion.div 
               ref={ref} 
               initial={{ opacity: 0, x: -100 }} 
