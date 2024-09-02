@@ -56,7 +56,7 @@ export default function Careers() {
               ref={ref} 
               initial={{ opacity: 0, x: -100 }} 
               animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -100 }} 
-              transition={{ duration: 0.2, ease: "easeOut" }} 
+              transition={{ duration: 0.2, ease: "easeInOut" }} 
               className="w-full h-72 sm:h-144 sm:h-72 overflow-hidden flex flex-col"
               >
              <Image
@@ -72,7 +72,7 @@ export default function Careers() {
              ref={ref} 
              initial={{ opacity: 0, x: 100 }} 
              animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 100 }} 
-             transition={{ duration: 0.2, ease: "easeOut" }} 
+             transition={{ duration: 0.2, ease: "easeInOut" }} 
              className='flex items-center flex-col justify-center'
              >
               <h1 className="text-xl sm:text-3xl font-raleway px-4 mb-[10px] font-semibold text-tranceblue">EXPLORE THE POSSIBILITIES</h1>
