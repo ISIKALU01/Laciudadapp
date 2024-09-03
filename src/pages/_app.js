@@ -27,7 +27,7 @@ export default function App({ Component, pageProps }) {
     router.events.on('routeChangeError', handleComplete);
 
     const checkImagesLoaded = () => {
-      const images = document.querySelectorAll('.logo');
+      const images = document.querySelectorAll('');
       console.log(images)
 
       if (images.length === 0) {
