@@ -6,6 +6,30 @@ import 'animate.css'
 
 const images = [
   {
+    src: '/Rhap (1).jpg',
+    alt: 'Image 1',
+  },
+  {
+    src: '/Rhap (2).jpg',
+    alt: 'Image 1',
+  },
+  {
+    src: '/Rhap (3).jpg',
+    alt: 'Image 1',
+  },
+  {
+    src: '/Rhap (4).jpg',
+    alt: 'Image 1',
+  },
+  {
+    src: '/Rhap (5).jpg',
+    alt: 'Image 1',
+  },
+  {
+    src: '/Rhap (6).jpg',
+    alt: 'Image 1',
+  },
+  {
     src: '/Rhapsody (1).jpg',
     alt: 'Image 1',
   },
@@ -61,29 +85,7 @@ const images = [
     src: '/Carouselthree (1).jpg',
     alt: 'Image 1',
   },
-  {
-    src: '/Rhap (1).jpg',
-    alt: 'Image 1',
-  },
-  {
-    src: '/Rhap (2).jpg',
-    alt: 'Image 1',
-  },{
-    src: '/Rhap (3).jpg',
-    alt: 'Image 1',
-  },
-  {
-    src: '/Rhap (4).jpg',
-    alt: 'Image 1',
-  },
-  {
-    src: '/Rhap (5).jpg',
-    alt: 'Image 1',
-  },
-  {
-    src: '/Rhap (6).jpg',
-    alt: 'Image 1',
-  },
+  
 ];
 
 
@@ -121,7 +123,7 @@ export default function Rhapsody() {
 
             <div className='relative group'>
 
-              <div className="w-full h-72 sm:h-144 sm:h-72 overflow-hidden flex flex-col">
+              <div className="w-full h-72 sm:h-144 sm:h-72 overflow-hidden flex flex-col rounded-xl">
                 <Image
                   src="/Rhapsody (2).jpg"
                   alt="Image 1"

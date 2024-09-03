@@ -13,6 +13,7 @@ export default function LogoLink() {
             layout="fill"
             objectFit="contain" 
             objectPosition="center"
+            className='logo'
            />
           </div>
       </Link>

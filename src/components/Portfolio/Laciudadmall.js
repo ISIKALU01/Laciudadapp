@@ -82,7 +82,7 @@ export default function Laciudadmall() {
 
             <div className='relative group'>
 
-              <div className="w-full h-72 sm:h-144 sm:h-72 overflow-hidden flex flex-col">
+              <div className="w-full h-72 sm:h-144 sm:h-72 overflow-hidden flex flex-col rounded-xl">
                 <Image
                   src="/pm (3).jpg"
                   alt="Image 1"

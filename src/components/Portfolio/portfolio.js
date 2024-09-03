@@ -105,7 +105,7 @@ export default function Portfolio() {
             </h1>
           </div>
 
-          <div className="px-[10px] lg:px-[150px] py-8 grid grid-cols-1 gap-8 sm:grid-cols-2 pb-[100px] 
+          <div className="px-[30px] lg:px-[150px] py-8 grid grid-cols-1 gap-8 sm:grid-cols-2 pb-[100px] 
           justify-center items-center">
             <Laciudadmall />
             <Slowlagos />

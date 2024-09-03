@@ -83,7 +83,7 @@ const ContactUs = () => {
               </div>
             </div>
       {submitted ? (
-        <p className="text-green-600 text-2xl font-raleway">Thank you for your message!</p>
+        <p className="text-green-600 text-2xl p-[200px] font-raleway">Thank you for your message!</p>
       ) : (
         <form onSubmit={handleSubmit} className='w-full'>
           <div className="mb-4">

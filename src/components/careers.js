@@ -16,8 +16,7 @@ const handleOpenGoogleForm = () => {
 
 export default function Careers() {
   const [ref, inView] = useInView({
-    triggerOnce: true, // Only trigger once
-    threshold: 0.1, // Trigger animation when 50% of the element is in view
+    triggerOnce: false, // Only trigger once
   });
   
         return (
@@ -64,7 +63,7 @@ export default function Careers() {
               alt="Image 1"
               width={2000}
               height={1500}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover logo"
             />
             </motion.div>
 
