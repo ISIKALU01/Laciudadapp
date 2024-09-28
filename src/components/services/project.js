@@ -45,7 +45,7 @@ export default function ProjectManagement() {
           <Navbar />
             <div className="w-full mx-auto px-30 mt-[80px] sm:flex sm:flex-col lg:px-30 flex flex-col justify-center">
               <h1 className="text-1xl mx-auto text-center sm:text-4xl font-light text-tranceblue mb-5 font-cinzel 
-               flex justify-center pb-1 mt-[90px]">PROJECT MANAGEMENT</h1>
+               flex justify-center pb-1 mt-[30px] sm:mt-[90px]">PROJECT MANAGEMENT</h1>
               <div className='border-b-1 border-gray-500 w-[50px] mx-auto mt-0 text-center mb-[60px]'></div>  
             </div>
 
@@ -68,7 +68,7 @@ export default function ProjectManagement() {
                flex justify-center">COMPREHENSIVE PROJECT MANAGEMENT SOLUTIONS</h1> 
                <h3 className="text-[10px] sm:text-[16px] mt-[0] sm:mt-[-10px] mx-auto text-center font-normal text-tranceblue mb-2
                flex justify-center pb-1 tracking-wider">for clients seeking guidance for their building programs</h3>
-               <p className="mx-auto text-sm sm:text-[18px] font-light text-tranceblue mb-5 font-raleway">
+               <p className="mx-auto text-sm sm:text-[16px] font-light text-tranceblue mb-5 font-raleway">
                 At Laciudad, we are client-centered which is why we offer our program management services together, serving as your 
                 owners representative, or a la cart tailored to meet your specific organization and project needs. Whatever the way 
                 we just want to be of service and help you plan and execute your project and your vision. Our program management 
@@ -77,7 +77,7 @@ export default function ProjectManagement() {
                 projects, comprehensive building programs, even multi-location/multi-project programs. Large or small we, we can help with them all.
                </p>
 
-               <div className='text-tranceblue'>
+               <div className='text-tranceblue px-[100px]'>
                 <h1 className='font-raleway text-xl'>Our Project Management Services include:</h1>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1 mt-10 mb-[100px]">
                   {listItems.map((item, index) => (
@@ -122,7 +122,7 @@ export default function ProjectManagement() {
                     className="w-full h-full object-cover" 
                   />
                   </div>
-                  <div className="w-full sm:w-1/2 px-[2px]">
+                  <div className="w-full sm:w-1/2 px-[5px]">
                    <p>Serving Africa and international markets.</p>
                   </div>
                  </div>
@@ -137,7 +137,7 @@ export default function ProjectManagement() {
                     className="w-full h-full object-cover" 
                   />
                   </div>
-                  <div className="w-full sm:w-1/2 px-[2px]">
+                  <div className="w-full sm:w-1/2 px-[5px]">
                    <p>Providing PM/CM services for over a decade.</p>
                   </div>
                  </div>
@@ -150,7 +150,7 @@ export default function ProjectManagement() {
           <div className="container mx-auto px-4 py-8 grid grid-cols-1 gap-8 md:grid-cols-3">
            <div className="w-full h-50 overflow-hidden flex flex-col">
             <Image
-             src="/homepage (1).jpg"
+             src="/Rhap (2).jpg"
              alt="Image 1"
              width={300}
              height={200}

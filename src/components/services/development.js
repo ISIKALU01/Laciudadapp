@@ -12,7 +12,7 @@ export default function Development () {
         <Navbar />
             <div className="w-full mx-auto px-30 mt-[80px] sm:flex sm:flex-col lg:px-30 flex flex-col justify-center">
               <h1 className="text-1xl mx-auto text-center sm:text-4xl font-light text-tranceblue mb-5 font-cinzel 
-               flex justify-center pb-1 mt-[90px]">RESIDENTIAL AND INDUSTRIAL BUILDING</h1>
+               flex justify-center pb-1 mt-[30px] sm:mt-[90px]">RESIDENTIAL AND INDUSTRIAL BUILDING</h1>
               <div className='border-b-1 border-gray-500 w-[50px] mx-auto mt-0 text-center mb-[60px]'></div>  
             </div>
 

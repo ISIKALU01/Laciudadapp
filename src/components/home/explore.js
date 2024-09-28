@@ -164,7 +164,7 @@ const ExploreSection = () => {
       },
       {
         id: 3,
-        src: '/homepage (1).jpg',
+        src: '/slowLagosImages (6).jpg',
         alt: 'Explore Image 3',
         title: 'WE ARE EXPERIENCED',
         description: 'Exceptional construction project management expertise.',

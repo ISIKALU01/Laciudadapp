@@ -35,7 +35,7 @@ export default function ConstructionTop({}) {
           <Navbar />
             <div className="w-full mx-auto px-30 mt-[80px] sm:flex sm:flex-col lg:px-30 flex flex-col justify-center">
               <h1 className="text-1xl mx-auto text-center sm:text-4xl font-light text-tranceblue mb-2 font-cinzel 
-               flex justify-center pb-1 mt-[90px]">CONSTRUCTION</h1>
+               flex justify-center pb-1 mt-[120px]">CONSTRUCTION</h1>
               <div className='border-b-1 border-gray-500 w-[50px] mx-auto mt-0 text-center mb-5'></div>  
             </div>
 
