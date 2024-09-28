@@ -1,0 +1,16 @@
+version: 2
+build:
+  commands:
+    - npm install
+    - npm run build
+  environment:
+    NODE_ENV: production
+  artifacts:
+    - .next/** # Include the built Next.js files
+    - public/** # Include your public assets (like the favicon)
+    - package.json
+    - package-lock.json # or yarn.lock if you are using Yarn
+
+deploy:
+  commands:
+    - npm start # or the command you use to start your server
