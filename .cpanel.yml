@@ -1,9 +1,17 @@
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/laciudad/public_html/
-    - /opt/cpanel/nodejs/18/bin/npm install
-    - /opt/cpanel/nodejs/18/bin/npm run build
-    - /bin/cp -R .next $DEPLOYPATH
-    - /bin/cp -R public $DEPLOYPATH
-    - /bin/cp package.json $DEPLOYPATH
-    - /bin/cp next.config.js $DEPLOYPATH
+version: 2
+build:
+  commands:
+    - npm install
+    - npm run build
+  environment:
+    NODE_ENV: production
+  artifacts:
+    - .next/** # Include the built Next.js files
+    - public/** # Include your public assets
+    - index.html # Include the index.html file
+    - package.json
+    - package-lock.json # or yarn.lock if you are using Yarn
+
+deploy:
+  commands:
+    - npm start # or the command you use to start your server
