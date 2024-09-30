@@ -77,7 +77,7 @@ export default function ProjectManagement() {
                 projects, comprehensive building programs, even multi-location/multi-project programs. Large or small we, we can help with them all.
                </p>
 
-               <div className='text-tranceblue px-[100px]'>
+               <div className='text-tranceblue md:px-[100px]'>
                 <h1 className='font-raleway text-xl'>Our Project Management Services include:</h1>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1 mt-10 mb-[100px]">
                   {listItems.map((item, index) => (
@@ -150,7 +150,7 @@ export default function ProjectManagement() {
           <div className="container mx-auto px-4 py-8 grid grid-cols-1 gap-8 md:grid-cols-3">
            <div className="w-full h-50 overflow-hidden flex flex-col">
             <Image
-             src="/Rhap (2).jpg"
+             src="/rhap (2).jpg"
              alt="Image 1"
              width={300}
              height={200}
