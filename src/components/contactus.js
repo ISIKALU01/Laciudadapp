@@ -42,7 +42,7 @@ const ContactUs = () => {
   return (
     <div className="p-6 bg-secondary shadow-md pt-[100px]">
         <h2 className="text-3xl text-center font-cinzel text-tranceblue font-semibold mb-4">Contact Us</h2>
-        <h2 className="text-1xl text-center font-raleway font-b mb-4">We&apos;d like to hear from you</h2>
+        <h2 className="text-1xl text-center text-tranceblue font-raleway font-b mb-4">We&apos;d like to hear from you</h2>
     <div className='grid grid-cols-1 gap-8 lg:grid-cols-2 sm:px-[50px] font-raleway'>
     <div className="flex flex-col space-y-4 sm:w-[400px]">
               <div className="flex items-center space-x-4">
@@ -85,7 +85,7 @@ const ContactUs = () => {
       {submitted ? (
         <p className="text-green-600 text-2xl p-[200px] font-raleway">Thank you for your message!</p>
       ) : (
-        <form onSubmit={handleSubmit} className='w-full'>
+        <form onSubmit={handleSubmit} className='w-full text-tranceblue'>
           <div className="mb-4">
             <label className="block mb-2" htmlFor="name">
               Name
