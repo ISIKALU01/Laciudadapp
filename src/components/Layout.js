@@ -1,5 +1,5 @@
 // components/Layout.js
-import Navbar from './home/navigation'; // Assuming you have a Navbar component
+/*import Navbar from './home/navigation'; // Assuming you have a Navbar component
 
 const Layout = ({ children }) => {
   return (
@@ -10,4 +10,4 @@ const Layout = ({ children }) => {
   );
 };
 
-export default Layout;
+export default Layout;*/
