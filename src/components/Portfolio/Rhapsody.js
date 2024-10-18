@@ -5,27 +5,27 @@ import 'animate.css'
 
 const images = [
     {
-        src: '/Rhap (1).jpg',
+        src: '/rhap (1).jpg',
         alt: 'Image 1',
       },
       {
-        src: '/Rhap (2).jpg',
+        src: '/rhap (2).jpg',
         alt: 'Image 1',
       },
       {
-        src: '/Rhap (3).jpg',
+        src: '/rhap (3).jpg',
         alt: 'Image 1',
       },
       {
-        src: '/Rhap (4).jpg',
+        src: '/rhap (4).jpg',
         alt: 'Image 1',
       },
       {
-        src: '/Rhap (5).jpg',
+        src: '/rhap (5).jpg',
         alt: 'Image 1',
       },
       {
-        src: '/Rhap (6).jpg',
+        src: '/rhap (6).jpg',
         alt: 'Image 1',
       },
       {
